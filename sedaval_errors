@@ -1,0 +1,224 @@
+create successfull
+pg_restore: [archiver (db)] Error while PROCESSING TOC:
+pg_restore: [archiver (db)] Error from TOC entry 9024; 0 3858986 TABLE DATA mail_alias openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "alias_contact" violates not-null constraint
+DETAIL:  Failing row contains (2, 1, 2013-10-03 10:22:29.503699, 2013-10-03 10:22:29.503699, 1, null, {}, null, null, 1, 1, 101, group+whole-company).
+    Command was: INSERT INTO mail_alias (id, create_uid, create_date, write_date, write_uid, alias_model_id, alias_defaults, alias_force_thre...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "alias_contact" violates not-null constraint
+DETAIL:  Failing row contains (3, 1, 2013-10-03 10:22:40.362803, 2013-10-03 10:22:40.362803, 1, null, {}, null, null, 1, 3, 76, portaltemplate).
+    Command was: INSERT INTO mail_alias (id, create_uid, create_date, write_date, write_uid, alias_model_id, alias_defaults, alias_force_thre...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "alias_contact" violates not-null constraint
+DETAIL:  Failing row contains (4, 1, 2013-10-03 10:23:11.238344, 2013-10-03 10:23:11.238344, 1, null, {}, null, null, 1, 2, 101, group+company-news).
+    Command was: INSERT INTO mail_alias (id, create_uid, create_date, write_date, write_uid, alias_model_id, alias_defaults, alias_force_thre...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "alias_contact" violates not-null constraint
+DETAIL:  Failing row contains (5, 1, 2013-10-03 10:23:11.238344, 2013-10-03 10:23:11.238344, 1, null, {}, null, null, 1, 3, 101, group+company-jobs).
+    Command was: INSERT INTO mail_alias (id, create_uid, create_date, write_date, write_uid, alias_model_id, alias_defaults, alias_force_thre...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "alias_contact" violates not-null constraint
+DETAIL:  Failing row contains (7, 1, 2013-10-04 10:12:10.231166, 2013-10-04 10:14:25.84724, 1, null, {}, null, null, 1, 5, 76, tomas).
+    Command was: INSERT INTO mail_alias (id, create_uid, create_date, write_date, write_uid, alias_model_id, alias_defaults, alias_force_thre...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "alias_contact" violates not-null constraint
+DETAIL:  Failing row contains (8, 1, 2013-11-06 08:56:49.080043, 2013-11-06 08:56:49.080043, 1, null, {}, null, null, 1, 6, 76, jestevem).
+    Command was: INSERT INTO mail_alias (id, create_uid, create_date, write_date, write_uid, alias_model_id, alias_defaults, alias_force_thre...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "alias_contact" violates not-null constraint
+DETAIL:  Failing row contains (6, 1, 2013-10-04 08:54:58.65369, 2013-11-16 10:12:13.807896, 1, null, {}, null, null, 1, 4, 76, admin).
+    Command was: INSERT INTO mail_alias (id, create_uid, create_date, write_date, write_uid, alias_model_id, alias_defaults, alias_force_thre...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "alias_contact" violates not-null constraint
+DETAIL:  Failing row contains (1, 1, 2013-10-03 10:22:28.616118, 2014-01-17 16:04:59.549577, 1, null, {}, null, null, 1, 1, 76, jm).
+    Command was: INSERT INTO mail_alias (id, create_uid, create_date, write_date, write_uid, alias_model_id, alias_defaults, alias_force_thre...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "alias_contact" violates not-null constraint
+DETAIL:  Failing row contains (14, 1, 2014-01-19 12:39:18.812075, 2014-01-19 12:39:50.673014, 1, null, {}, null, null, 1, 10, 76, natalia).
+    Command was: INSERT INTO mail_alias (id, create_uid, create_date, write_date, write_uid, alias_model_id, alias_defaults, alias_force_thre...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "alias_contact" violates not-null constraint
+DETAIL:  Failing row contains (11, 1, 2014-01-09 09:06:59.87307, 2014-01-19 12:41:31.951353, 1, null, {}, null, null, 1, 7, 76, sandra).
+    Command was: INSERT INTO mail_alias (id, create_uid, create_date, write_date, write_uid, alias_model_id, alias_defaults, alias_force_thre...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "alias_contact" violates not-null constraint
+DETAIL:  Failing row contains (13, 1, 2014-01-19 12:37:58.188037, 2014-01-24 09:43:48.198396, 1, null, {}, null, null, 1, 9, 76, auxi).
+    Command was: INSERT INTO mail_alias (id, create_uid, create_date, write_date, write_uid, alias_model_id, alias_defaults, alias_force_thre...
+pg_restore: [archiver (db)] Error from TOC entry 9074; 0 3859160 TABLE DATA pos_config openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  column "shop_id" of relation "pos_config" does not exist
+LINE 1: ..._id, iface_self_checkout, iface_electronic_scale, shop_id, g...
+                                                             ^
+    Command was: INSERT INTO pos_config (id, create_uid, create_date, write_date, write_uid, iface_vkeyboard, iface_cashdrawer, name, state, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  column "shop_id" of relation "pos_config" does not exist
+LINE 1: ..._id, iface_self_checkout, iface_electronic_scale, shop_id, g...
+                                                             ^
+    Command was: INSERT INTO pos_config (id, create_uid, create_date, write_date, write_uid, iface_vkeyboard, iface_cashdrawer, name, state, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  column "shop_id" of relation "pos_config" does not exist
+LINE 1: ..._id, iface_self_checkout, iface_electronic_scale, shop_id, g...
+                                                             ^
+    Command was: INSERT INTO pos_config (id, create_uid, create_date, write_date, write_uid, iface_vkeyboard, iface_cashdrawer, name, state, ...
+pg_restore: [archiver (db)] Error from TOC entry 9171; 0 3859482 TABLE DATA purchase_order openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (1, 7, 2014-01-17 16:57:04.121635, 2014-01-24 09:30:25.984599, 7, null, 17, null, 2014-01-17, 27, null, 1, 152.00, 12, 1, 31.92, done, 2, 1, null, null, 2014-01-17, 183.92, PO00001, null, order, t, 7, 2014-01-17).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (4, 7, 2014-01-27 09:06:08.128849, 2014-01-29 16:49:52.888334, 7, null, 17, null, 2014-01-27, 25, null, 1, 16.00, 12, 1, 3.36, approved, 2, 1, null, null, 2014-01-27, 19.36, PO00004, null, picking, t, 7, 2014-01-27).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (7, 7, 2014-01-29 17:34:16.777108, 2014-01-31 18:02:58.541391, 7, null, 17, null, 2014-01-29, 19, null, 1, 124.00, 12, 1, 26.04, approved, 2, 1, null, null, 2014-01-31, 150.04, PO00007, null, picking, t, 7, 2014-01-29).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (8, 7, 2014-02-01 09:51:51.747472, 2014-02-01 09:59:24.377238, 7, null, 17, null, 2014-02-01, 44, null, 1, 70.00, 12, 1, 14.70, approved, 2, 1, null, null, 2014-02-01, 84.70, PO00008, null, picking, t, 7, 2014-02-01).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (2, 7, 2014-01-21 09:29:28.051283, 2014-02-05 16:35:02.700445, 7, null, 17, null, 2014-01-21, 40, null, 1, 116.00, 12, 1, 24.36, approved, 2, 1, null, null, 2014-01-21, 140.36, PO00002, null, picking, t, 7, 2014-01-21).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (3, 7, 2014-01-25 11:31:32.012016, 2014-02-05 17:45:19.249285, 7, null, 17, null, 2014-01-25, 65, null, 1, 475.00, 12, 1, 99.75, approved, 2, 1, null, null, 2014-01-25, 574.75, PO00003, null, picking, t, 7, 2014-01-25).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (11, 7, 2014-02-06 18:40:09.02094, 2014-02-12 16:29:54.642408, 7, null, 17, null, 2014-02-03, 27, null, 1, 114.00, 12, 1, 23.94, approved, 2, 1, null, null, 2014-02-06, 137.94, PO00011, null, picking, t, 7, 2014-02-03).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (22, 7, 2014-02-15 11:40:22.540653, 2014-02-15 12:04:38.102777, 7, null, 17, null, 2014-02-14, 44, null, 1, 330.00, 12, 1, 69.27, approved, 2, 1, null, null, 2014-02-15, 399.27, PO00022, null, picking, t, 7, 2014-02-14).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (20, 7, 2014-02-14 19:19:08.892751, 2014-02-14 19:21:08.300535, 7, null, 17, null, 2014-02-14, 268, null, null, 42.00, 12, 1, 8.82, approved, 2, 1, null, null, 2014-02-14, 50.82, PO00020, null, picking, t, 7, 2014-02-14).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (6, 7, 2014-01-29 16:55:11.37477, 2014-02-14 09:18:38.343408, 7, null, 17, null, 2014-01-29, 44, null, 1, 21.00, 12, 1, 4.41, approved, 2, 1, null, null, 2014-01-29, 25.41, PO00006, null, picking, t, 7, 2014-01-29).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (10, 7, 2014-02-06 18:21:52.157578, 2014-02-06 18:25:44.204023, 7, null, 17, null, 2014-01-20, 201, null, null, 20.00, 12, 1, 4.22, approved, 2, 1, null, null, 2014-02-06, 24.22, PO00010, null, picking, t, 7, 2014-01-20).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (15, 7, 2014-02-10 12:54:36.993027, 2014-02-10 12:57:32.393789, 7, null, 17, null, 2014-02-10, 93, null, 1, 350.00, 12, 1, 73.50, approved, 2, 1, null, null, 2014-02-10, 423.50, PO00015, null, picking, t, 7, 2014-02-10).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (9, 7, 2014-02-06 18:15:33.380874, 2014-02-07 15:52:38.356116, 7, null, 17, null, 2014-02-05, 44, null, 1, 75.00, 12, 1, 15.73, approved, 2, 1, null, null, 2014-02-07, 90.73, PO00009, null, picking, t, 7, 2014-02-05).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (5, 7, 2014-01-27 16:19:19.542864, 2014-02-14 09:18:38.343408, 7, null, 17, null, 2014-01-27, 44, null, 1, 51.00, 12, 1, 10.71, approved, 2, 1, null, null, 2014-01-27, 61.71, PO00005, null, picking, t, 7, 2014-01-27).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (21, 7, 2014-02-15 10:04:02.529864, 2014-02-15 10:09:58.484559, 7, null, 17, null, 2014-02-04, 270, null, null, 210.49, 12, 1, 44.23, approved, 2, 1, null, null, 2014-02-15, 254.72, PO00021, null, picking, t, 7, 2014-02-04).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (14, 7, 2014-02-08 10:52:10.808602, 2014-02-11 11:48:55.509871, 7, null, 17, null, 2014-01-29, 37, null, 1, 535.87, 12, 1, 112.53, approved, 2, 1, null, null, 2014-02-08, 648.40, PO00014, null, picking, t, 7, 2014-01-29).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (16, 7, 2014-02-11 19:01:34.685977, 2014-02-12 16:13:04.101399, 7, null, 17, null, 2014-02-03, 260, null, null, 86.50, 12, 1, 18.16, approved, 2, 1, null, null, 2014-02-12, 104.66, PO00016, null, picking, t, 7, 2014-02-03).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (17, 7, 2014-02-12 17:58:42.953682, 2014-02-12 17:59:19.740505, 7, null, 17, null, 2014-02-12, 19, null, 1, 92.00, 12, 1, 19.32, approved, 2, 1, null, null, 2014-02-12, 111.32, PO00017, null, picking, t, 7, 2014-02-12).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] could not execute query: ERROR:  null value in column "currency_id" violates not-null constraint
+DETAIL:  Failing row contains (18, 7, 2014-02-12 18:37:17.609731, 2014-02-12 18:38:00.242189, 7, null, 17, null, 2014-02-12, 22, null, 1, 59.00, 12, 1, 12.39, approved, 2, 1, null, null, 2014-02-12, 71.39, PO00018, null, picking, t, 7, 2014-02-12).
+    Command was: INSERT INTO purchase_order (id, create_uid, create_date, write_date, write_uid, origin, journal_id, date_order, partner_id, ...
+pg_restore: [archiver (db)] Error from TOC entry 9258; 0 3859860 TABLE DATA sale_order openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  column "shop_id" of relation "sale_order" does not exist
+LINE 1: ...ate, write_date, write_uid, origin, order_policy, shop_id, c...
+                                                             ^
+    Command was: INSERT INTO sale_order (id, create_uid, create_date, write_date, write_uid, origin, order_policy, shop_id, client_order_ref,...
+pg_restore: [archiver (db)] Error from TOC entry 6846; 2606 3862258 FK CONSTRAINT account_account_financial_report_type_account_type_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "account_account_financial_report_type" violates foreign key constraint "account_account_financial_report_type_account_type_id_fkey"
+DETAIL:  Key (account_type_id)=(28) is not present in table "account_account_type".
+    Command was: ALTER TABLE ONLY account_account_financial_report_type
+    ADD CONSTRAINT account_account_financial_report_type_account_type...
+pg_restore: [archiver (db)] Error from TOC entry 6850; 2606 3862313 FK CONSTRAINT account_account_template_user_type_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "account_account_template" violates foreign key constraint "account_account_template_user_type_fkey"
+DETAIL:  Key (user_type)=(28) is not present in table "account_account_type".
+    Command was: ALTER TABLE ONLY account_account_template
+    ADD CONSTRAINT account_account_template_user_type_fkey FOREIGN KEY (user_type)...
+pg_restore: [archiver (db)] Error from TOC entry 7705; 2606 3866553 FK CONSTRAINT mail_group_alias_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "mail_group" violates foreign key constraint "mail_group_alias_id_fkey"
+DETAIL:  Key (alias_id)=(3) is not present in table "mail_alias".
+    Command was: ALTER TABLE ONLY mail_group
+    ADD CONSTRAINT mail_group_alias_id_fkey FOREIGN KEY (alias_id) REFERENCES mail_alias(id) ON ...
+pg_restore: [archiver (db)] Error from TOC entry 7792; 2606 3866993 FK CONSTRAINT pos_config_journal_rel_pos_config_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "pos_config_journal_rel" violates foreign key constraint "pos_config_journal_rel_pos_config_id_fkey"
+DETAIL:  Key (pos_config_id)=(1) is not present in table "pos_config".
+    Command was: ALTER TABLE ONLY pos_config_journal_rel
+    ADD CONSTRAINT pos_config_journal_rel_pos_config_id_fkey FOREIGN KEY (pos_config...
+pg_restore: [archiver (db)] Error from TOC entry 7837; 2606 3867218 FK CONSTRAINT pos_session_config_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "pos_session" violates foreign key constraint "pos_session_config_id_fkey"
+DETAIL:  Key (config_id)=(1) is not present in table "pos_config".
+    Command was: ALTER TABLE ONLY pos_session
+    ADD CONSTRAINT pos_session_config_id_fkey FOREIGN KEY (config_id) REFERENCES pos_config(id)...
+pg_restore: [archiver (db)] Error from TOC entry 7954; 2606 3867823 FK CONSTRAINT purchase_invoice_rel_purchase_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "purchase_invoice_rel" violates foreign key constraint "purchase_invoice_rel_purchase_id_fkey"
+DETAIL:  Key (purchase_id)=(1) is not present in table "purchase_order".
+    Command was: ALTER TABLE ONLY purchase_invoice_rel
+    ADD CONSTRAINT purchase_invoice_rel_purchase_id_fkey FOREIGN KEY (purchase_id) REF...
+pg_restore: [archiver (db)] Error from TOC entry 7974; 2606 3867903 FK CONSTRAINT purchase_order_line_order_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "purchase_order_line" violates foreign key constraint "purchase_order_line_order_id_fkey"
+DETAIL:  Key (order_id)=(1) is not present in table "purchase_order".
+    Command was: ALTER TABLE ONLY purchase_order_line
+    ADD CONSTRAINT purchase_order_line_order_id_fkey FOREIGN KEY (order_id) REFERENCES ...
+pg_restore: [archiver (db)] Error from TOC entry 8058; 2606 3868038 FK CONSTRAINT res_better_zip_state_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "res_better_zip" violates foreign key constraint "res_better_zip_state_id_fkey"
+DETAIL:  Key (state_id)=(52) is not present in table "res_country_state".
+    Command was: ALTER TABLE ONLY res_better_zip
+    ADD CONSTRAINT res_better_zip_state_id_fkey FOREIGN KEY (state_id) REFERENCES res_countr...
+pg_restore: [archiver (db)] Error from TOC entry 8118; 2606 3868313 FK CONSTRAINT res_partner_bank_state_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "res_partner_bank" violates foreign key constraint "res_partner_bank_state_id_fkey"
+DETAIL:  Key (state_id)=(99) is not present in table "res_country_state".
+    Command was: ALTER TABLE ONLY res_partner_bank
+    ADD CONSTRAINT res_partner_bank_state_id_fkey FOREIGN KEY (state_id) REFERENCES res_co...
+pg_restore: [archiver (db)] Error from TOC entry 8112; 2606 3868393 FK CONSTRAINT res_partner_state_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "res_partner" violates foreign key constraint "res_partner_state_id_fkey"
+DETAIL:  Key (state_id)=(99) is not present in table "res_country_state".
+    Command was: ALTER TABLE ONLY res_partner
+    ADD CONSTRAINT res_partner_state_id_fkey FOREIGN KEY (state_id) REFERENCES res_country_stat...
+pg_restore: [archiver (db)] Error from TOC entry 8146; 2606 3868448 FK CONSTRAINT res_users_alias_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "res_users" violates foreign key constraint "res_users_alias_id_fkey"
+DETAIL:  Key (alias_id)=(6) is not present in table "mail_alias".
+    Command was: ALTER TABLE ONLY res_users
+    ADD CONSTRAINT res_users_alias_id_fkey FOREIGN KEY (alias_id) REFERENCES mail_alias(id) ON DE...
+pg_restore: [archiver (db)] Error from TOC entry 8142; 2606 3868468 FK CONSTRAINT res_users_pos_config_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "res_users" violates foreign key constraint "res_users_pos_config_fkey"
+DETAIL:  Key (pos_config)=(5) is not present in table "pos_config".
+    Command was: ALTER TABLE ONLY res_users
+    ADD CONSTRAINT res_users_pos_config_fkey FOREIGN KEY (pos_config) REFERENCES pos_config(id) O...
+pg_restore: [archiver (db)] Error from TOC entry 8190; 2606 3868648 FK CONSTRAINT sale_order_invoice_rel_order_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "sale_order_invoice_rel" violates foreign key constraint "sale_order_invoice_rel_order_id_fkey"
+DETAIL:  Key (order_id)=(6) is not present in table "sale_order".
+    Command was: ALTER TABLE ONLY sale_order_invoice_rel
+    ADD CONSTRAINT sale_order_invoice_rel_order_id_fkey FOREIGN KEY (order_id) REFER...
+pg_restore: [archiver (db)] Error from TOC entry 8198; 2606 3868683 FK CONSTRAINT sale_order_line_order_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "sale_order_line" violates foreign key constraint "sale_order_line_order_id_fkey"
+DETAIL:  Key (order_id)=(6) is not present in table "sale_order".
+    Command was: ALTER TABLE ONLY sale_order_line
+    ADD CONSTRAINT sale_order_line_order_id_fkey FOREIGN KEY (order_id) REFERENCES sale_ord...
+pg_restore: [archiver (db)] Error from TOC entry 8197; 2606 3868688 FK CONSTRAINT sale_order_line_procurement_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "sale_order_line" violates foreign key constraint "sale_order_line_procurement_id_fkey"
+DETAIL:  Key (procurement_id)=(1) is not present in table "procurement_order".
+    Command was: ALTER TABLE ONLY sale_order_line
+    ADD CONSTRAINT sale_order_line_procurement_id_fkey FOREIGN KEY (procurement_id) REFEREN...
+pg_restore: [archiver (db)] Error from TOC entry 8033; 2606 3869638 FK CONSTRAINT stock_picking_purchase_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "stock_picking" violates foreign key constraint "stock_picking_purchase_id_fkey"
+DETAIL:  Key (purchase_id)=(1) is not present in table "purchase_order".
+    Command was: ALTER TABLE ONLY stock_picking
+    ADD CONSTRAINT stock_picking_purchase_id_fkey FOREIGN KEY (purchase_id) REFERENCES purcha...
+pg_restore: [archiver (db)] Error from TOC entry 8034; 2606 3869643 FK CONSTRAINT stock_picking_purchase_id_fkey1 openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "stock_picking" violates foreign key constraint "stock_picking_purchase_id_fkey1"
+DETAIL:  Key (purchase_id)=(1) is not present in table "purchase_order".
+    Command was: ALTER TABLE ONLY stock_picking
+    ADD CONSTRAINT stock_picking_purchase_id_fkey1 FOREIGN KEY (purchase_id) REFERENCES purch...
+pg_restore: [archiver (db)] Error from TOC entry 8035; 2606 3869648 FK CONSTRAINT stock_picking_sale_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "stock_picking" violates foreign key constraint "stock_picking_sale_id_fkey"
+DETAIL:  Key (sale_id)=(6) is not present in table "sale_order".
+    Command was: ALTER TABLE ONLY stock_picking
+    ADD CONSTRAINT stock_picking_sale_id_fkey FOREIGN KEY (sale_id) REFERENCES sale_order(id)...
+pg_restore: [archiver (db)] Error from TOC entry 8421; 2606 3870143 FK CONSTRAINT wkf_triggers_instance_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "wkf_triggers" violates foreign key constraint "wkf_triggers_instance_id_fkey"
+DETAIL:  Key (instance_id)=(307) is not present in table "wkf_instance".
+    Command was: ALTER TABLE ONLY wkf_triggers
+    ADD CONSTRAINT wkf_triggers_instance_id_fkey FOREIGN KEY (instance_id) REFERENCES wkf_inst...
+pg_restore: [archiver (db)] Error from TOC entry 8423; 2606 3870153 FK CONSTRAINT wkf_witm_trans_inst_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "wkf_witm_trans" violates foreign key constraint "wkf_witm_trans_inst_id_fkey"
+DETAIL:  Key (inst_id)=(482) is not present in table "wkf_instance".
+    Command was: ALTER TABLE ONLY wkf_witm_trans
+    ADD CONSTRAINT wkf_witm_trans_inst_id_fkey FOREIGN KEY (inst_id) REFERENCES wkf_instance...
+pg_restore: [archiver (db)] Error from TOC entry 8426; 2606 3870163 FK CONSTRAINT wkf_workitem_act_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "wkf_workitem" violates foreign key constraint "wkf_workitem_act_id_fkey"
+DETAIL:  Key (act_id)=(14) is not present in table "wkf_activity".
+    Command was: ALTER TABLE ONLY wkf_workitem
+    ADD CONSTRAINT wkf_workitem_act_id_fkey FOREIGN KEY (act_id) REFERENCES wkf_activity(id) O...
+pg_restore: [archiver (db)] Error from TOC entry 8425; 2606 3870168 FK CONSTRAINT wkf_workitem_inst_id_fkey openerp
+pg_restore: [archiver (db)] could not execute query: ERROR:  insert or update on table "wkf_workitem" violates foreign key constraint "wkf_workitem_inst_id_fkey"
+DETAIL:  Key (inst_id)=(3) is not present in table "wkf_instance".
+    Command was: ALTER TABLE ONLY wkf_workitem
+    ADD CONSTRAINT wkf_workitem_inst_id_fkey FOREIGN KEY (inst_id) REFERENCES wkf_instance(id)...
+WARNING: errors ignored on restore: 56
+restore successfull

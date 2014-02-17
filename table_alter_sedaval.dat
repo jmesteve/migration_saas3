@@ -1,0 +1,42 @@
+#antes de crear
+
+ALTER TABLE pos_order ADD COLUMN shop_id integer;
+COMMENT ON COLUMN pos_order.shop_id IS 'Shop';
+
+ALTER TABLE res_company ADD COLUMN refund text;
+COMMENT ON COLUMN res_company.refund IS 'Refund policy';
+
+ALTER TABLE purchase_order ALTER COLUMN currency_id SET default 1;
+
+ALTER TABLE sale_order ADD COLUMN shop_id integer;
+ALTER TABLE sale_order ALTER COLUMN shop_id SET NOT NULL;
+COMMENT ON COLUMN sale_order.shop_id IS 'Shop';
+
+ALTER TABLE sale_order ALTER COLUMN warehouse_id SET default 1;
+ALTER TABLE sale_order ALTER COLUMN access_token SET default 0;
+
+ALTER TABLE mail_alias ALTER COLUMN alias_contact SET default 'everyone';
+
+ALTER TABLE pos_config ADD COLUMN shop_id integer;
+ALTER TABLE pos_config ALTER COLUMN shop_id SET default 1;
+COMMENT ON COLUMN pos_config.shop_id IS 'Shop';
+
+alter table pos_config alter column pricelist_id set default 1;
+alter table pos_config alter column warehouse_id set default 1;
+
+
+
+#después de crear
+
+select p.id,p.pos_categ_id,pt.id, pt.public_categ_id
+from product_product as p
+inner join product_template as pt
+on p.id = pt.id
+
+update
+product_template 
+set
+public_categ_id = p.pos_categ_id
+from product_product as p
+inner join product_template as pt
+on p.id = pt.id
