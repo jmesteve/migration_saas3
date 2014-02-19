@@ -1,6 +1,0 @@
-INSERT INTO ir_ui_view_group_rel (view_id, group_id) VALUES (791, 20);
-INSERT INTO ir_ui_view_group_rel (view_id, group_id) VALUES (892, 16);
-INSERT INTO ir_ui_view_group_rel (view_id, group_id) VALUES (892, 17);
-INSERT INTO ir_ui_view_group_rel (view_id, group_id) VALUES (892, 45);
-
-

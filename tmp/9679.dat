@@ -1,6 +1,0 @@
-INSERT INTO crm_payment_mode (id, create_uid, create_date, write_date, write_uid, name, section_id) VALUES (1, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, 'Cash', 1);
-INSERT INTO crm_payment_mode (id, create_uid, create_date, write_date, write_uid, name, section_id) VALUES (2, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, 'Check', 1);
-INSERT INTO crm_payment_mode (id, create_uid, create_date, write_date, write_uid, name, section_id) VALUES (3, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, 'Credit Card', 1);
-INSERT INTO crm_payment_mode (id, create_uid, create_date, write_date, write_uid, name, section_id) VALUES (4, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, 'Demand Draft', 1);
-
-

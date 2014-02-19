@@ -1,3 +1,0 @@
-INSERT INTO stock_warehouse (id, create_uid, create_date, write_date, write_uid, lot_input_id, lot_output_id, name, lot_stock_id, partner_id, company_id) VALUES (1, 1, '2013-10-22 10:27:49.453516', '2013-10-22 10:27:49.453516', 1, 12, 11, 'CORTES BUSSINESS CORPORATION S.L.', 12, NULL, 1);
-
-

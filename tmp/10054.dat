@@ -1,4 +1,0 @@
-INSERT INTO res_partner_bank_type (id, create_uid, create_date, write_date, write_uid, code, name, format_layout) VALUES (1, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, 'bank', 'Normal Bank Account', '%(bank_name)s: %(acc_number)s');
-INSERT INTO res_partner_bank_type (id, create_uid, create_date, write_date, write_uid, code, name, format_layout) VALUES (2, 1, '2013-10-22 09:44:22.162954', '2013-10-22 09:44:22.162954', 1, 'iban', 'IBAN Account', '%(bank_name)s: IBAN %(acc_number)s - BIC %(bank_bic)s');
-
-

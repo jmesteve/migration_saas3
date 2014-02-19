@@ -1,3 +1,0 @@
-INSERT INTO product_ul (id, create_uid, create_date, write_date, write_uid, type, name) VALUES (1, 1, '2013-12-03 10:58:54.581472', '2013-12-03 11:07:07.665628', 1, 'unit', 'Camión Cisterna');
-
-

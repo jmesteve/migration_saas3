@@ -1,7 +1,0 @@
-INSERT INTO crm_meeting_type (id, create_uid, create_date, write_date, write_uid, name) VALUES (1, 1, '2013-10-23 11:31:03.81778', '2013-10-23 11:31:03.81778', 1, 'Customer Meeting');
-INSERT INTO crm_meeting_type (id, create_uid, create_date, write_date, write_uid, name) VALUES (2, 1, '2013-10-23 11:31:03.81778', '2013-10-23 11:31:03.81778', 1, 'Internal Meeting');
-INSERT INTO crm_meeting_type (id, create_uid, create_date, write_date, write_uid, name) VALUES (3, 1, '2013-10-23 11:31:03.81778', '2013-10-23 11:31:03.81778', 1, 'Off-site Meeting');
-INSERT INTO crm_meeting_type (id, create_uid, create_date, write_date, write_uid, name) VALUES (4, 1, '2013-10-23 11:31:03.81778', '2013-10-23 11:31:03.81778', 1, 'Open Discussion');
-INSERT INTO crm_meeting_type (id, create_uid, create_date, write_date, write_uid, name) VALUES (5, 1, '2013-10-23 11:31:03.81778', '2013-10-23 11:31:03.81778', 1, 'Feedback Meeting');
-
-

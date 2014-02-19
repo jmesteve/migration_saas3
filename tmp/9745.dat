@@ -1,3 +1,0 @@
-INSERT INTO ir_mail_server (id, create_uid, create_date, write_date, write_uid, name, sequence, smtp_port, smtp_host, smtp_user, smtp_pass, smtp_debug, active, smtp_encryption) VALUES (2, 1, '2013-12-14 18:23:39.015556', '2013-12-15 15:52:54.546969', 1, 'smtp', 10, 25, 'localhost', NULL, NULL, false, true, 'none');
-
-

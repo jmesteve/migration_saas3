@@ -1,6 +1,0 @@
-INSERT INTO res_partner_bank_type_field (id, create_uid, create_date, write_date, write_uid, bank_type_id, readonly, required, name, size) VALUES (1, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, 1, false, false, 'bank_bic', NULL);
-INSERT INTO res_partner_bank_type_field (id, create_uid, create_date, write_date, write_uid, bank_type_id, readonly, required, name, size) VALUES (2, 1, '2013-10-22 09:44:22.162954', '2013-10-22 09:44:22.162954', 1, 2, false, true, 'bank_bic', NULL);
-INSERT INTO res_partner_bank_type_field (id, create_uid, create_date, write_date, write_uid, bank_type_id, readonly, required, name, size) VALUES (3, 1, '2013-10-22 09:44:22.162954', '2013-10-22 09:44:22.162954', 1, 2, false, false, 'country_id', NULL);
-INSERT INTO res_partner_bank_type_field (id, create_uid, create_date, write_date, write_uid, bank_type_id, readonly, required, name, size) VALUES (4, 1, '2013-10-22 09:44:22.162954', '2013-10-22 09:44:22.162954', 1, 2, false, false, 'zip', NULL);
-
-

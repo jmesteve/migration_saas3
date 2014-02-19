@@ -1,3 +1,0 @@
-INSERT INTO company_html_rel (company_id, html_id) VALUES (1, 1);
-
-

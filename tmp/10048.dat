@@ -1,4 +1,0 @@
-INSERT INTO res_lang (id, name, code, create_uid, create_date, write_date, write_uid, date_format, direction, thousands_sep, translatable, time_format, decimal_point, active, iso_code, grouping) VALUES (1, 'English', 'en_US', 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%m/%d/%Y', 'ltr', ',', true, '%H:%M:%S', '.', true, NULL, '[]');
-INSERT INTO res_lang (id, name, code, create_uid, create_date, write_date, write_uid, date_format, direction, thousands_sep, translatable, time_format, decimal_point, active, iso_code, grouping) VALUES (2, 'Spanish / Español', 'es_ES', 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%d/%m/%Y', 'ltr', '.', true, '%H:%M:%S', ',', true, 'es', '[]');
-
-

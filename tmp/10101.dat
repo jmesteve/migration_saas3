@@ -1,3 +1,0 @@
-INSERT INTO sale_shop (id, create_uid, create_date, write_date, write_uid, pricelist_id, project_id, name, payment_default_id, company_id, warehouse_id) VALUES (1, 1, '2013-11-09 16:21:19.702831', '2013-11-09 16:21:24.88282', 1, 1, NULL, 'CORTES BUSSINESS CORPORATION S.L.', 3, 1, 1);
-
-

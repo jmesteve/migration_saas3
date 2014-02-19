@@ -1,7 +1,0 @@
-INSERT INTO product_uom_categ (id, create_uid, create_date, write_date, write_uid, name) VALUES (1, 1, '2013-10-22 09:43:16.806587', '2013-10-22 09:43:16.806587', 1, 'Unit');
-INSERT INTO product_uom_categ (id, create_uid, create_date, write_date, write_uid, name) VALUES (2, 1, '2013-10-22 09:43:16.806587', '2013-10-22 09:43:16.806587', 1, 'Weight');
-INSERT INTO product_uom_categ (id, create_uid, create_date, write_date, write_uid, name) VALUES (3, 1, '2013-10-22 09:43:16.806587', '2013-10-22 09:43:16.806587', 1, 'Working Time');
-INSERT INTO product_uom_categ (id, create_uid, create_date, write_date, write_uid, name) VALUES (4, 1, '2013-10-22 09:43:16.806587', '2013-10-22 09:43:16.806587', 1, 'Length / Distance');
-INSERT INTO product_uom_categ (id, create_uid, create_date, write_date, write_uid, name) VALUES (5, 1, '2013-10-22 09:43:16.806587', '2013-10-22 09:43:16.806587', 1, 'Volume');
-
-

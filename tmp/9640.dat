@@ -1,3 +1,0 @@
-INSERT INTO company_img_rel (company_id, img_id) VALUES (1, 2);
-
-

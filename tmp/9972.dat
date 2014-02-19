@@ -1,4 +1,0 @@
-INSERT INTO product_pricelist_type (id, create_uid, create_date, write_date, write_uid, name, key) VALUES (1, 1, '2013-10-22 09:43:16.806587', '2013-10-22 09:43:16.806587', 1, 'Sale Pricelist', 'sale');
-INSERT INTO product_pricelist_type (id, create_uid, create_date, write_date, write_uid, name, key) VALUES (3, 1, '2013-11-09 16:51:47.013011', '2013-11-09 16:51:47.013011', 1, 'Purchase Pricelist', 'purchase');
-
-
