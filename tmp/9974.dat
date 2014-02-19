@@ -1,0 +1,7 @@
+INSERT INTO product_pricelist_version (id, create_uid, create_date, write_date, write_uid, name, active, pricelist_id, date_end, date_start, company_id) VALUES (1, 1, '2013-10-22 09:43:16.806587', '2013-11-22 09:02:01.286068', 1, 'Default Public Pricelist Version', true, 1, NULL, NULL, NULL);
+INSERT INTO product_pricelist_version (id, create_uid, create_date, write_date, write_uid, name, active, pricelist_id, date_end, date_start, company_id) VALUES (3, 1, '2013-11-09 16:51:47.013011', '2013-11-22 09:03:38.731498', 1, 'Default Purchase Pricelist Version', true, 3, NULL, NULL, NULL);
+INSERT INTO product_pricelist_version (id, create_uid, create_date, write_date, write_uid, name, active, pricelist_id, date_end, date_start, company_id) VALUES (5, 1, '2013-11-26 09:03:53.825233', '2013-11-26 09:03:53.825233', 1, 'ZUCAN 2013 Noviembre', true, 5, NULL, NULL, NULL);
+INSERT INTO product_pricelist_version (id, create_uid, create_date, write_date, write_uid, name, active, pricelist_id, date_end, date_start, company_id) VALUES (6, 7, '2013-11-29 11:16:40.588978', '2013-11-29 11:16:40.588978', 7, 'version 1', true, 6, NULL, NULL, NULL);
+INSERT INTO product_pricelist_version (id, create_uid, create_date, write_date, write_uid, name, active, pricelist_id, date_end, date_start, company_id) VALUES (4, 1, '2013-11-26 08:51:20.685767', '2014-01-10 11:28:11.147733', 7, 'CRA juice 2013 noviembre', true, 4, NULL, NULL, NULL);
+
+

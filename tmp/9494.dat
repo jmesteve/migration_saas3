@@ -1,0 +1,5 @@
+INSERT INTO account_payment_term (id, create_uid, create_date, write_date, write_uid, active, note, name) VALUES (1, 1, '2013-10-22 09:43:37.857705', '2013-10-22 09:43:37.857705', 1, true, 'Immediate Payment', 'Immediate Payment');
+INSERT INTO account_payment_term (id, create_uid, create_date, write_date, write_uid, active, note, name) VALUES (2, 1, '2013-10-22 09:43:37.857705', '2013-10-22 09:43:37.857705', 1, true, '15 Days', '15 Days');
+INSERT INTO account_payment_term (id, create_uid, create_date, write_date, write_uid, active, note, name) VALUES (3, 1, '2013-10-22 09:43:37.857705', '2013-10-22 09:43:37.857705', 1, true, '30 Net Days', '30 Net Days');
+
+

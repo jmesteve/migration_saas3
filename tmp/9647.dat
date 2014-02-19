@@ -1,0 +1,10 @@
+INSERT INTO crm_case_resource_type (id, create_uid, create_date, write_date, write_uid, name, section_id) VALUES (1, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, 'Telesales', 1);
+INSERT INTO crm_case_resource_type (id, create_uid, create_date, write_date, write_uid, name, section_id) VALUES (2, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, 'Email Campaign - Services', 1);
+INSERT INTO crm_case_resource_type (id, create_uid, create_date, write_date, write_uid, name, section_id) VALUES (3, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, 'Email Campaign - Products', 1);
+INSERT INTO crm_case_resource_type (id, create_uid, create_date, write_date, write_uid, name, section_id) VALUES (4, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, 'Twitter Ads', 1);
+INSERT INTO crm_case_resource_type (id, create_uid, create_date, write_date, write_uid, name, section_id) VALUES (5, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, 'Google Adwords', 1);
+INSERT INTO crm_case_resource_type (id, create_uid, create_date, write_date, write_uid, name, section_id) VALUES (6, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, 'Banner Ads', 1);
+INSERT INTO crm_case_resource_type (id, create_uid, create_date, write_date, write_uid, name, section_id) VALUES (7, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, 'Television', 1);
+INSERT INTO crm_case_resource_type (id, create_uid, create_date, write_date, write_uid, name, section_id) VALUES (8, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, 'Newsletter', 1);
+
+

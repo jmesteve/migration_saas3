@@ -1,0 +1,6 @@
+INSERT INTO crm_case_channel (id, create_uid, create_date, write_date, write_uid, active, name) VALUES (1, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, true, 'Website');
+INSERT INTO crm_case_channel (id, create_uid, create_date, write_date, write_uid, active, name) VALUES (2, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, true, 'Phone');
+INSERT INTO crm_case_channel (id, create_uid, create_date, write_date, write_uid, active, name) VALUES (3, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, true, 'Direct');
+INSERT INTO crm_case_channel (id, create_uid, create_date, write_date, write_uid, active, name) VALUES (4, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, true, 'Email');
+
+

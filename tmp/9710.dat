@@ -1,0 +1,117 @@
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (103, 'Whole Company', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:11.348319', '2013-10-22 09:43:11.348319', 1, '<p>
+                    No message in this group.
+                </p>
+            ', 'mail.message', '\x7b276865616465725f6465736372697074696f6e273a20752747656e6572616c20616e6e6f756e63657320666f7220616c6c20656d706c6f796565732e272c2027636f6d706f73655f706c616365686f6c646572273a202753656e642061206d65737361676520746f207468652067726f7570272c20277365617263685f766965775f6964273a203138382c2027636f6e74657874273a207b2764656661756c745f6d6f64656c273a20276d61696c2e67726f7570272c202764656661756c745f7265735f6964273a20314c7d2c20277265735f6d6f64656c273a20276d61696c2e6d657373616765272c20277468726561645f6c6576656c273a20312c2027646f6d61696e273a205b28276d6f64656c272c20273d272c20276d61696c2e67726f757027292c2028277265735f6964272c20273d272c20314c295d2c2027766965775f6d61696c626f78273a20547275657d', 'mail.wall', '{
+            }');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (274, 'Discussion Group', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:53.28035', '2013-10-22 09:43:53.28035', 1, '<p>
+                    No message in this group.
+                </p>
+            ', 'mail.message', '\x7b276865616465725f6465736372697074696f6e273a2027272c2027636f6d706f73655f706c616365686f6c646572273a202753656e642061206d65737361676520746f207468652067726f7570272c20277365617263685f766965775f6964273a203138382c2027636f6e74657874273a207b2764656661756c745f6d6f64656c273a20276d61696c2e67726f7570272c202764656661756c745f7265735f6964273a20324c7d2c20277265735f6d6f64656c273a20276d61696c2e6d657373616765272c20277468726561645f6c6576656c273a20312c2027646f6d61696e273a205b28276d6f64656c272c20273d272c20276d61696c2e67726f757027292c2028277265735f6964272c20273d272c20324c295d2c2027766965775f6d61696c626f78273a20547275657d', 'mail.wall', '{
+            }');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (275, 'News', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:53.28035', '2013-10-22 09:43:53.28035', 1, '<p>
+                    Youd don''t have unread company''s news.
+                </p>
+            ', 'mail.group', '\x7b27646f6d61696e273a205b28276d6f64656c272c20273d272c20276d61696c2e67726f757027292c2028277265735f6964272c20273d272c2032295d2c20277265735f6d6f64656c273a20276d61696c2e6d657373616765272c20277468726561645f6c6576656c273a20312c2027726561646f6e6c79273a20547275652c2027636f6e74657874273a207b2764656661756c745f6d6f64656c273a20276d61696c2e67726f7570272c20277365617263685f64656661756c745f6d6573736167655f756e72656164273a2046616c73652c202764656661756c745f7265735f6964273a20327d2c202773686f775f6c696e6b273a2046616c73657d', 'mail.wall', '{}');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (276, 'Discussion Group', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:53.28035', '2013-10-22 09:43:53.28035', 1, '<p>
+                    No message in this group.
+                </p>
+            ', 'mail.message', '\x7b276865616465725f6465736372697074696f6e273a2027272c2027636f6d706f73655f706c616365686f6c646572273a202753656e642061206d65737361676520746f207468652067726f7570272c20277365617263685f766965775f6964273a203138382c2027636f6e74657874273a207b2764656661756c745f6d6f64656c273a20276d61696c2e67726f7570272c202764656661756c745f7265735f6964273a20334c7d2c20277265735f6d6f64656c273a20276d61696c2e6d657373616765272c20277468726561645f6c6576656c273a20312c2027646f6d61696e273a205b28276d6f64656c272c20273d272c20276d61696c2e67726f757027292c2028277265735f6964272c20273d272c20334c295d2c2027766965775f6d61696c626f78273a20547275657d', 'mail.wall', '{
+            }');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (277, 'Jobs', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:53.28035', '2013-10-22 09:43:53.28035', 1, '<p>
+                    Youd don''t have unread job offers.
+                </p>
+            ', 'mail.group', '\x7b27646f6d61696e273a205b28276d6f64656c272c20273d272c20276d61696c2e67726f757027292c2028277265735f6964272c20273d272c2033295d2c20277265735f6d6f64656c273a20276d61696c2e6d657373616765272c20277468726561645f6c6576656c273a20312c2027726561646f6e6c79273a20547275652c2027636f6e74657874273a207b2764656661756c745f6d6f64656c273a20276d61696c2e67726f7570272c20277365617263685f64656661756c745f6d6573736167655f756e72656164273a2046616c73652c202764656661756c745f7265735f6964273a20337d2c202773686f775f6c696e6b273a2046616c73657d', 'mail.wall', '{}');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (287, 'Open Invoicing Menu', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:57.109501', '2013-10-22 09:43:57.109501', 1, NULL, NULL, '\x7b276d656e755f6964273a203133317d', 'reload', '{}');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (295, 'Open Accounting Menu', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:59.271015', '2013-10-22 09:43:59.271015', 1, NULL, NULL, '\x7b276d656e755f6964273a203133317d', 'reload', '{}');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (472, 'Open Sale Menu', 'ir.actions.client', NULL, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, NULL, NULL, '\x7b276d656e755f6964273a2037357d', 'reload', '{}');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (516, 'Open Sale Menu', 'ir.actions.client', NULL, 1, '2013-11-09 16:21:19.702831', '2013-11-09 16:21:19.702831', 1, NULL, NULL, '\x7b276d656e755f6964273a2037357d', 'reload', '{}');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (559, 'Open Purchase Menu', 'ir.actions.client', NULL, 1, '2013-11-09 16:51:47.013011', '2013-11-09 16:51:47.013011', 1, NULL, NULL, '\x7b276d656e755f6964273a203331357d', 'reload', '{}');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (586, 'Open MRP Menu', 'ir.actions.client', NULL, 1, '2013-11-09 16:52:08.508367', '2013-11-09 16:52:08.508367', 1, NULL, NULL, '\x7b276d656e755f6964273a203334387d', 'reload', '{}');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (2, 'Open Settings Menu', 'ir.actions.client', NULL, 1, '2013-10-22 09:35:23.07293', '2013-11-29 16:31:42.547943', 1, NULL, NULL, '\x7b276d656e755f6964273a20337d', 'reload', '{}');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (278, 'Inbox', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:53.28035', '2013-11-29 16:32:13.914712', 1, '<p>
+                    <b>Good Job!</b> Your inbox is empty.
+                </p><p>
+                    Your inbox contains private messages or emails sent to you
+                    as well as information related to documents or people you
+                    follow.
+                </p>
+            ', 'mail.message', '\x7b202020202020202020202020202020202027646f6d61696e273a205b202020202020202020202020202020202020202827746f5f72656164272c20273d272c2054727565292c20202020202020202020202020202020205d2c20202020202020202020202020202020202773686f775f636f6d706f73655f6d657373616765273a2046616c73652c20202020202020202020202020202020202773686f775f6c696e6b273a2046616c73652c202020202020202020202020202020202027766965775f6d61696c626f78273a20547275652c202020202020202020202020202020202027766965775f696e626f78273a20547275652c202020202020202020202020202020202027726561645f616374696f6e273a20277265616427202020202020202020202020207d', 'mail.wall', '{
+              ''default_model'': ''res.users'',
+              ''default_res_id'': uid,
+            }');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (383, 'Open Warehouse Menu', 'ir.actions.client', NULL, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, NULL, NULL, '\x7b276d656e755f6964273a203237347d', 'reload', '{}');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (39, 'Apps', 'ir.actions.client', NULL, 1, '2013-10-22 09:35:23.07293', '2013-11-29 16:31:42.547943', 1, NULL, NULL, NULL, 'apps', '{}');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (40, 'Updates', 'ir.actions.client', NULL, 1, '2013-10-22 09:35:23.07293', '2013-11-29 16:31:42.547943', 1, NULL, NULL, '\x7b7d', 'apps.updates', '{}');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (97, 'Inbox', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:11.348319', '2013-11-29 16:31:52.248585', 1, '<p>
+                    <b>Good Job!</b> Your inbox is empty.
+                </p><p>
+                    Your inbox contains private messages or emails sent to you
+                    as well as information related to documents or people you
+                    follow.
+                </p>
+            ', 'mail.message', '\x7b202020202020202020202020202020202027646f6d61696e273a205b202020202020202020202020202020202020202827746f5f72656164272c20273d272c2054727565292c20202020202020202020202020202020202020282773746172726564272c20273d272c2046616c7365292c20202020202020202020202020202020205d2c202020202020202020202020202020202027766965775f6d61696c626f78273a20547275652c202020202020202020202020202020202027766965775f696e626f78273a20547275652c202020202020202020202020202020202027726561645f616374696f6e273a20277265616427202020202020202020202020207d', 'mail.wall', '{
+              ''default_model'': ''res.users'',
+              ''default_res_id'': uid,
+              ''needaction_menu_ref'': [''mail.mail_tomefeeds'', ''mail.mail_starfeeds'']
+            }');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (98, 'To: me', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:11.348319', '2013-11-29 16:31:52.248585', 1, '<p>
+                    <b>No private message.</b>
+                </p><p>
+                    This list contains messages sent to you.
+                </p>
+            ', 'mail.message', '\x7b202020202020202020202020202020202027646f6d61696e273a205b2020202020202020202020202020202020202020202827706172746e65725f6964732e757365725f696473272c2027696e272c205b7569645d2920202020202020202020202020202020205d2c202020202020202020202020202020202027766965775f6d61696c626f78273a20547275652c202020202020202020202020202020202027726561645f616374696f6e273a202772656164272c20202020202020202020202020202020202773686f775f636f6d706f73655f6d657373616765273a2046616c7365202020202020202020202020207d', 'mail.wall', '{
+              ''default_model'': ''res.users'',
+              ''default_res_id'': uid,
+              ''search_default_message_unread'': True,
+              ''needaction_menu_ref'': [''mail.mail_starfeeds'', ''mail.mail_inboxfeeds'']
+            }');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (99, 'To-do', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:11.348319', '2013-11-29 16:31:52.248585', 1, '<p>
+                    <b>No todo.</b>
+                </p><p>
+                    When you process messages in your inbox, you can mark some
+                    as <i>todo</i>. From this menu, you can process all your todo.
+                </p>
+            ', 'mail.message', '\x7b202020202020202020202020202020202027646f6d61696e273a205b202020202020202020202020202020202020202020282773746172726564272c20273d272c2054727565292c20202020202020202020202020202020205d2c202020202020202020202020202020202027766965775f6d61696c626f78273a20547275652c202020202020202020202020202020202027726561645f616374696f6e273a202772656164272c202020202020202020202020202020202027636f6d706f73655f61735f746f646f273a2054727565202020202020202020202020207d', 'mail.wall', '{
+              ''default_model'': ''res.users'',
+              ''default_res_id'': uid,
+              ''search_default_message_unread'': True
+            }');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (280, 'Archives', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:53.28035', '2013-11-29 16:32:13.914712', 1, '<p>
+                    No message found and no message sent yet.
+                </p><p>
+                    Click on the top-right icon to compose a message. This
+                    message will be sent by email if it''s an internal contact.
+                </p>
+            ', NULL, '\x7b202020202020202020202020202020202027646f6d61696e273a205b202020202020202020202020202020202020202020277c272c20202020202020202020202020202020202020202028276e6f74696669636174696f6e5f6964732e706172746e65725f69642e757365725f696473272c2027696e272c205b7569645d292c2020202020202020202020202020202020202020202827617574686f725f69642e757365725f696473272c2027696e272c205b7569645d292c20202020202020202020202020202020205d2c20202020202020202020202020202020202773686f775f636f6d706f73655f6d657373616765273a2046616c73652c20202020202020202020202020202020202773686f775f6c696e6b273a2046616c73652c202020202020202020202020202020202027766965775f6d61696c626f78273a20547275652c202020202020202020202020207d', 'mail.wall', '{
+              ''default_model'': ''res.users'',
+              ''default_res_id'': uid
+            }');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (100, 'Archives', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:11.348319', '2013-11-29 16:31:52.248585', 1, '<p>
+                    No message found and no message sent yet.
+                </p><p>
+                    Click on the top-right icon to compose a message. This
+                    message will be sent by email if it''s an internal contact.
+                </p>
+            ', NULL, '\x7b202020202020202020202020202020202027646f6d61696e273a205b202020202020202020202020202020202020202020277c272c20202020202020202020202020202020202020202028276e6f74696669636174696f6e5f6964732e706172746e65725f69642e757365725f696473272c2027696e272c205b7569645d292c2020202020202020202020202020202020202020202827617574686f725f69642e757365725f696473272c2027696e272c205b7569645d292c20202020202020202020202020202020205d2c202020202020202020202020202020202027766965775f6d61696c626f78273a20547275652c20202020202020202020202020202020202773686f775f636f6d706f73655f6d657373616765273a2046616c7365202020202020202020202020207d', 'mail.wall', '{
+              ''default_model'': ''res.users'',
+              ''default_res_id'': uid,
+              ''needaction_menu_ref'': [''mail.mail_tomefeeds'', ''mail.mail_starfeeds'', ''mail.mail_inboxfeeds'']
+            }');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (101, 'Discussion Group', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:11.348319', '2013-11-29 16:31:52.248585', 1, '<p>
+                    No message in this group.
+                </p>
+            ', 'mail.message', '\x7b0a2020202020202020202020202020202027726561645f616374696f6e273a202772656164270a2020202020202020202020207d', 'mail.wall', '{
+            }');
+INSERT INTO ir_act_client (id, name, type, usage, create_uid, create_date, write_date, write_uid, help, res_model, params_store, tag, context) VALUES (279, 'To-do', 'ir.actions.client', NULL, 1, '2013-10-22 09:43:53.28035', '2013-11-29 16:32:13.914712', 1, '<p>
+                    <b>No todo.</b>
+                </p><p>
+                    When you process messages in your inbox, you can mark some
+                    as <i>todo</i>. From this menu, you can process all your todo.
+                </p>
+            ', 'mail.message', '\x7b202020202020202020202020202020202027646f6d61696e273a205b202020202020202020202020202020202020202020282773746172726564272c20273d272c2054727565292c20202020202020202020202020202020205d2c20202020202020202020202020202020202773686f775f636f6d706f73655f6d657373616765273a2046616c73652c20202020202020202020202020202020202773686f775f6c696e6b273a2046616c73652c202020202020202020202020202020202027766965775f6d61696c626f78273a20547275652c202020202020202020202020202020202027726561645f616374696f6e273a20277265616427202020202020202020202020207d', 'mail.wall', '{
+              ''default_model'': ''res.users'',
+              ''default_res_id'': uid,
+              ''search_default_message_unread'': True
+            }');
+
+

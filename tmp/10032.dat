@@ -1,0 +1,1017 @@
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (1, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'AD', 'Andorra, Principality of');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (2, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 135, 'AE', 'United Arab Emirates');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (3, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 48, 'AF', 'Afghanistan, Islamic State of');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (4, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 50, 'AG', 'Antigua and Barbuda');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (5, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 50, 'AI', 'Anguilla');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (6, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 124, 'AL', 'Albania');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (7, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 51, 'AM', 'Armenia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (8, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 15, 'AN', 'Netherlands Antilles');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (9, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 49, 'AO', 'Angola');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (10, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 50, 'AQ', 'Antarctica');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (11, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 20, 'AR', 'Argentina');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (12, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 3, 'AS', 'American Samoa');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (13, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'AT', 'Austria');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (14, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 22, 'AU', 'Australia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (15, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 52, 'AW', 'Aruba');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (16, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'AX', 'Åland Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (17, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 53, 'AZ', 'Azerbaijan');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (18, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 63, 'BA', 'Bosnia-Herzegovina');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (19, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 57, 'BB', 'Barbados');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (20, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 56, 'BD', 'Bangladesh');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (21, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s', 1, 'BE', 'Belgium');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (22, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 42, 'BF', 'Burkina Faso');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (23, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 27, 'BG', 'Bulgaria');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (24, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 55, 'BH', 'Bahrain');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (25, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 65, 'BI', 'Burundi');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (26, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 42, 'BJ', 'Benin');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (27, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'BL', 'Saint Barthélémy');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (28, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 60, 'BM', 'Bermuda');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (29, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 115, 'BN', 'Brunei Darussalam');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (30, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 62, 'BO', 'Bolivia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (31, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 3, 'BQ', 'Bonaire, Sint Eustatius and Saba');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (32, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s
+%(zip)s
+%(country_name)s', 7, 'BR', 'Brazil');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (33, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 54, 'BS', 'Bahamas');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (34, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 61, 'BT', 'Bhutan');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (35, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 15, 'BV', 'Bouvet Island');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (36, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 64, 'BW', 'Botswana');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (37, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 58, 'BY', 'Belarus');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (38, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 59, 'BZ', 'Belize');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (39, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 5, 'CA', 'Canada');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (40, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 22, 'CC', 'Cocos (Keeling) Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (41, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 43, 'CF', 'Central African Republic');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (42, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 69, 'CD', 'Congo, Democratic Republic of the');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (43, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 43, 'CG', 'Congo');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (44, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 6, 'CH', 'Switzerland');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (45, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 42, 'CI', 'Ivory Coast (Cote D''Ivoire)');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (46, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 36, 'CK', 'Cook Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (47, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 22, 'CL', 'Chile');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (48, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 43, 'CM', 'Cameroon');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (49, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 8, 'CN', 'China');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (50, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 9, 'CO', 'Colombia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (51, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 40, 'CR', 'Costa Rica');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (52, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 70, 'CU', 'Cuba');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (53, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 173, 'CV', 'Cape Verde');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (54, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 71, 'CW', 'Curaçao');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (55, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 22, 'CX', 'Christmas Island');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (56, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 72, 'CY', 'Cyprus');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (57, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 10, 'CZ', 'Czech Republic');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (58, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s', 1, 'DE', 'Germany');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (59, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 73, 'DJ', 'Djibouti');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (60, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 11, 'DK', 'Denmark');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (61, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 50, 'DM', 'Dominica');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (62, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 74, 'DO', 'Dominican Republic');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (63, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 116, 'DZ', 'Algeria');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (64, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 76, 'EC', 'Ecuador');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (65, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 80, 'EE', 'Estonia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (66, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 77, 'EG', 'Egypt');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (67, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 114, 'EH', 'Western Sahara');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (68, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 79, 'ER', 'Eritrea');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (70, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 81, 'ET', 'Ethiopia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (71, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'FI', 'Finland');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (72, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 83, 'FJ', 'Fiji');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (73, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 82, 'FK', 'Falkland Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (74, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 3, 'FM', 'Micronesia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (75, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 11, 'FO', 'Faroe Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (76, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s', 1, 'FR', 'France');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (77, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 43, 'GA', 'Gabon');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (78, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 50, 'GD', 'Grenada');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (79, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'GE', 'Georgia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (80, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 84, 'GF', 'French Guyana');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (81, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 117, 'GH', 'Ghana');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (82, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 85, 'GI', 'Gibraltar');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (83, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 152, 'GG', 'Guernsey');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (84, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 11, 'GL', 'Greenland');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (85, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 118, 'GM', 'Gambia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (86, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 87, 'GN', 'Guinea');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (87, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'GP', 'Guadeloupe (French)');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (88, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 43, 'GQ', 'Equatorial Guinea');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (89, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'GR', 'Greece');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (90, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 152, 'GS', 'South Georgia and the South Sandwich Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (91, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 86, 'GT', 'Guatemala');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (92, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 3, 'GU', 'Guam (USA)');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (93, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 88, 'GW', 'Guinea Bissau');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (94, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 89, 'GY', 'Guyana');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (95, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 25, 'HK', 'Hong Kong');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (96, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 22, 'HM', 'Heard and McDonald Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (97, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 45, 'HN', 'Honduras');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (98, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 30, 'HR', 'Croatia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (99, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 90, 'HT', 'Haiti');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (100, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 12, 'HU', 'Hungary');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (101, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 13, 'ID', 'Indonesia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (102, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'IE', 'Ireland');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (103, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 94, 'IL', 'Israel');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (104, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 152, 'IM', 'Isle of Man');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (105, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(zip)s
+%(state_name)s
+%(country_name)s', 21, 'IN', 'India');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (106, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 3, 'IO', 'British Indian Ocean Territory');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (107, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 93, 'IQ', 'Iraq');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (108, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 92, 'IR', 'Iran');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (109, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 91, 'IS', 'Iceland');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (110, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'IT', 'Italy');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (111, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 152, 'JE', 'Jersey');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (112, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 95, 'JM', 'Jamaica');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (113, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 96, 'JO', 'Jordan');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (114, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 26, 'JP', 'Japan');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (115, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 98, 'KE', 'Kenya');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (116, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 100, 'KG', 'Kyrgyz Republic (Kyrgyzstan)');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (117, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 66, 'KH', 'Cambodia, Kingdom of');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (118, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 22, 'KI', 'Kiribati');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (119, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 68, 'KM', 'Comoros');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (120, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 50, 'KN', 'Saint Kitts & Nevis Anguilla');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (121, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 127, 'KP', 'North Korea');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (122, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 33, 'KR', 'South Korea');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (123, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 99, 'KW', 'Kuwait');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (124, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 67, 'KY', 'Cayman Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (125, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 97, 'KZ', 'Kazakhstan');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (126, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 101, 'LA', 'Laos');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (127, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 102, 'LB', 'Lebanon');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (128, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 50, 'LC', 'Saint Lucia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (129, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 6, 'LI', 'Liechtenstein');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (130, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 150, 'LK', 'Sri Lanka');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (131, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 104, 'LR', 'Liberia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (132, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 103, 'LS', 'Lesotho');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (133, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 28, 'LT', 'Lithuania');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (134, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'LU', 'Luxembourg');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (135, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 14, 'LV', 'Latvia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (136, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 105, 'LY', 'Libya');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (137, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 114, 'MA', 'Morocco');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (138, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'MC', 'Monaco');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (139, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 112, 'MD', 'Moldavia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (140, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 105, 'ME', 'Montenegro');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (141, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'MF', 'Saint Martin (French part)');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (142, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 108, 'MG', 'Madagascar');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (143, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 3, 'MH', 'Marshall Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (144, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 107, 'MK', 'Macedonia, the former Yugoslav Republic of');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (145, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 42, 'ML', 'Mali');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (146, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 121, 'MM', 'Myanmar');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (147, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 113, 'MN', 'Mongolia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (148, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 106, 'MO', 'Macau');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (149, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 3, 'MP', 'Northern Mariana Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (150, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'MQ', 'Martinique (French)');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (151, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 111, 'MR', 'Mauritania');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (152, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 50, 'MS', 'Montserrat');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (153, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'MT', 'Malta');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (154, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 41, 'MU', 'Mauritius');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (155, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 110, 'MV', 'Maldives');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (156, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 109, 'MW', 'Malawi');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (157, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 34, 'MX', 'Mexico');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (158, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 34, 'MY', 'Malaysia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (159, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 120, 'MZ', 'Mozambique');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (160, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 122, 'NA', 'Namibia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (161, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 16, 'NC', 'New Caledonia (French)');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (162, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 42, 'NE', 'Niger');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (163, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 22, 'NF', 'Norfolk Island');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (164, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 126, 'NG', 'Nigeria');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (165, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 125, 'NI', 'Nicaragua');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (166, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s', 1, 'NL', 'Netherlands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (167, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 15, 'NO', 'Norway');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (168, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 123, 'NP', 'Nepal');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (169, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 22, 'NR', 'Nauru');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (170, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 93, 'NT', 'Neutral Zone');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (171, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 36, 'NU', 'Niue');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (172, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 36, 'NZ', 'New Zealand');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (173, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 172, 'OM', 'Oman');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (174, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 17, 'PA', 'Panama');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (175, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 168, 'PE', 'Peru');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (176, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 16, 'PF', 'Polynesia (French)');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (177, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 170, 'PG', 'Papua New Guinea');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (178, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 37, 'PH', 'Philippines');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (179, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 171, 'PK', 'Pakistan');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (180, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 167, 'PL', 'Poland');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (181, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'PM', 'Saint Pierre and Miquelon');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (182, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 36, 'PN', 'Pitcairn Island');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (183, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 3, 'PR', 'Puerto Rico');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (184, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 94, 'PS', 'Palestinian Territory, Occupied');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (185, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'PT', 'Portugal');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (186, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 3, 'PW', 'Palau');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (187, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 169, 'PY', 'Paraguay');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (188, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 166, 'QA', 'Qatar');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (189, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'RE', 'Reunion (French)');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (190, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 165, 'RO', 'Romania');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (191, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 157, 'RS', 'Serbia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (192, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 31, 'RU', 'Russian Federation');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (193, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 163, 'RW', 'Rwanda');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (194, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 158, 'SA', 'Saudi Arabia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (195, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 154, 'SB', 'Solomon Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (196, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 156, 'SC', 'Seychelles');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (197, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 149, 'SD', 'Sudan');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (198, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 19, 'SE', 'Sweden');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (199, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 38, 'SG', 'Singapore');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (200, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 162, 'SH', 'Saint Helena');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (201, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'SI', 'Slovenia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (202, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 15, 'SJ', 'Svalbard and Jan Mayen Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (203, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 174, 'SK', 'Slovakia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (204, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 155, 'SL', 'Sierra Leone');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (205, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 160, 'SM', 'San Marino');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (206, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 42, 'SN', 'Senegal');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (207, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 153, 'SO', 'Somalia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (208, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 148, 'SR', 'Suriname');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (209, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 151, 'SS', 'South Sudan');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (210, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 159, 'ST', 'Saint Tome (Sao Tome) and Principe');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (211, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 78, 'SV', 'El Salvador');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (212, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 71, 'SX', 'Sint Maarten (Dutch part)');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (213, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 146, 'SY', 'Syria');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (214, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 147, 'SZ', 'Swaziland');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (215, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 3, 'TC', 'Turks and Caicos Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (216, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 43, 'TD', 'Chad');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (217, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'TF', 'French Southern Territories');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (218, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 42, 'TG', 'Togo');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (219, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 142, 'TH', 'Thailand');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (220, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 144, 'TJ', 'Tajikistan');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (221, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 36, 'TK', 'Tokelau');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (222, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 137, 'TM', 'Turkmenistan');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (223, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 139, 'TN', 'Tunisia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (224, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 141, 'TO', 'Tonga');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (225, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 75, 'TP', 'East Timor');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (226, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 138, 'TR', 'Turkey');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (227, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 140, 'TT', 'Trinidad and Tobago');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (228, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 22, 'TV', 'Tuvalu');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (229, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 145, 'TW', 'Taiwan');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (230, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 143, 'TZ', 'Tanzania');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (231, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 136, 'UA', 'Ukraine');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (232, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 44, 'UG', 'Uganda');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (233, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s
+%(state_name)s
+%(zip)s
+%(country_name)s', 152, 'GB', 'United Kingdom');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (234, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 3, 'UM', 'USA Minor Outlying Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (235, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s, %(state_code)s %(zip)s
+%(country_name)s', 3, 'US', 'United States');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (236, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 134, 'UY', 'Uruguay');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (237, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 133, 'UZ', 'Uzbekistan');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (238, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'VA', 'Holy See (Vatican City State)');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (239, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 50, 'VC', 'Saint Vincent & Grenadines');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (240, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 131, 'VE', 'Venezuela');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (241, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 3, 'VG', 'Virgin Islands (British)');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (242, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 3, 'VI', 'Virgin Islands (USA)');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (243, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 24, 'VN', 'Vietnam');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (244, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 132, 'VU', 'Vanuatu');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (245, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 16, 'WF', 'Wallis and Futuna Islands');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (246, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 161, 'WS', 'Samoa');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (247, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 130, 'YE', 'Yemen');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (248, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 1, 'YT', 'Mayotte');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (249, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 176, 'YU', 'Yugoslavia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (250, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 39, 'ZA', 'South Africa');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (251, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 129, 'ZM', 'Zambia');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (252, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 119, 'ZR', 'Zaire');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (253, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, '%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s', 128, 'ZW', 'Zimbabwe');
+INSERT INTO res_country (id, create_uid, create_date, write_date, write_uid, address_format, currency_id, code, name) VALUES (69, 1, '2013-10-22 09:35:23.07293', '2013-11-14 12:25:51.64235', 1, '%(street)s
+%(street2)s
+%(zip)s %(city)s (%(state_name)s) %(country_name)s', 1, 'ES', 'Spain');
+
+

@@ -1,0 +1,3 @@
+INSERT INTO mail_group_res_group_rel (mail_group_id, groups_id) VALUES (1, 3);
+
+

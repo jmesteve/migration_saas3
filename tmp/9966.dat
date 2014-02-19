@@ -1,0 +1,4 @@
+INSERT INTO product_price_type (id, create_uid, create_date, write_date, write_uid, active, field, currency_id, name) VALUES (1, 1, '2013-10-22 09:43:16.806587', '2013-10-22 09:46:13.572071', 1, true, 'list_price', 1, 'Public Price');
+INSERT INTO product_price_type (id, create_uid, create_date, write_date, write_uid, active, field, currency_id, name) VALUES (2, 1, '2013-10-22 09:43:16.806587', '2013-10-22 09:46:13.572071', 1, true, 'standard_price', 1, 'Cost Price');
+
+

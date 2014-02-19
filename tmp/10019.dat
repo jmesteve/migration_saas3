@@ -1,0 +1,6 @@
+INSERT INTO res_bank (id, create_uid, create_date, write_date, write_uid, city, fax, name, zip, country, street2, bic, phone, state, street, active, email) VALUES (1, 1, '2013-10-22 09:35:23.07293', '2013-10-22 09:35:23.07293', 1, NULL, NULL, 'Reserve', NULL, NULL, NULL, NULL, NULL, NULL, NULL, true, NULL);
+INSERT INTO res_bank (id, create_uid, create_date, write_date, write_uid, city, fax, name, zip, country, street2, bic, phone, state, street, active, email) VALUES (2, 7, '2013-11-29 12:15:42.20629', '2013-11-29 12:15:42.20629', 7, NULL, NULL, 'BBVA', NULL, NULL, NULL, '0182', NULL, NULL, NULL, true, NULL);
+INSERT INTO res_bank (id, create_uid, create_date, write_date, write_uid, city, fax, name, zip, country, street2, bic, phone, state, street, active, email) VALUES (3, 7, '2014-01-15 11:35:26.155444', '2014-01-15 11:35:26.155444', 7, NULL, NULL, 'CAJAMAR', NULL, NULL, NULL, '3058', NULL, NULL, NULL, true, NULL);
+INSERT INTO res_bank (id, create_uid, create_date, write_date, write_uid, city, fax, name, zip, country, street2, bic, phone, state, street, active, email) VALUES (4, 7, '2014-01-15 11:42:42.976756', '2014-01-15 11:42:42.976756', 7, NULL, NULL, 'BANKIA S.A', NULL, NULL, NULL, '2038', NULL, NULL, NULL, true, NULL);
+
+

@@ -1,0 +1,772 @@
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (1, 'ir.model', 'Models', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (2, 'ir.model.fields', 'Fields', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (3, 'ir.model.constraint', 'ir.model.constraint', 'base', '
+    This model tracks PostgreSQL foreign keys and constraints used by OpenERP
+    models.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (4, 'ir.model.relation', 'ir.model.relation', 'base', '
+    This model tracks PostgreSQL tables used to implement OpenERP many2many
+    relations.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (5, 'ir.model.access', 'ir.model.access', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (6, 'ir.model.data', 'ir.model.data', 'base', 'Holds external identifier keys for records in the database.
+       This has two main uses:
+
+           * allows easy data integration with third-party systems,
+             making import/export/sync of data possible, as records
+             can be uniquely identified across multiple systems
+           * allows tracking the origin of data installed by OpenERP
+             modules themselves, thus making it possible to later
+             update them seamlessly.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (7, 'ir.sequence.type', 'ir.sequence.type', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (8, 'ir.sequence', 'ir.sequence', 'base', ' Sequence model.
+
+    The sequence model allows to define and use so-called sequence objects.
+    Such objects are used to generate unique identifiers in a transaction-safe
+    way.
+
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (9, 'ir.needaction_mixin', 'ir.needaction_mixin', 'base', 'Mixin class for objects using the need action feature.
+
+    Need action feature can be used by models that have to be able to
+    signal that an action is required on a particular record. If in
+    the business logic an action must be performed by somebody, for
+    instance validation by a manager, this mechanism allows to set a
+    list of users asked to perform an action.
+
+    Models using the ''need_action'' feature should override the
+    ``_needaction_domain_get`` method. This method returns a
+    domain to filter records requiring an action for a specific user.
+
+    This class also offers several global services:
+    - ``_needaction_count``: returns the number of actions uid has to perform
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (10, 'ir.ui.menu', 'ir.ui.menu', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (11, 'ir.ui.view.custom', 'ir.ui.view.custom', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (12, 'ir.ui.view', 'ir.ui.view', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (13, 'ir.ui.view_sc', 'ir.ui.view_sc', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (14, 'ir.default', 'ir.default', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (15, 'ir.actions.actions', 'ir.actions.actions', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (16, 'ir.actions.report.xml', 'ir.actions.report.xml', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (17, 'ir.actions.act_window', 'ir.actions.act_window', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (18, 'ir.actions.act_window.view', 'ir.actions.act_window.view', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (19, 'ir.actions.wizard', 'ir.actions.wizard', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (20, 'ir.actions.act_url', 'ir.actions.act_url', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (21, 'ir.server.object.lines', 'ir.server.object.lines', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (22, 'ir.actions.server', 'ir.actions.server', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (23, 'ir.actions.act_window_close', 'ir.actions.act_window_close', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (24, 'ir.actions.todo', 'Configuration Wizards', 'base', '
+    Configuration Wizards
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (25, 'ir.actions.client', 'ir.actions.client', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (26, 'ir.attachment', 'ir.attachment', 'base', 'Attachments are used to link binary files or url to any openerp document.
+
+    External attachment storage
+    ---------------------------
+    
+    The ''data'' function field (_data_get,data_set) is implemented using
+    _file_read, _file_write and _file_delete which can be overridden to
+    implement other storage engines, shuch methods should check for other
+    location pseudo uri (example: hdfs://hadoppserver)
+    
+    The default implementation is the file:dirname location that stores files
+    on the local filesystem using name based on their sha1 hash
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (27, 'ir.cron', 'ir.cron', 'base', ' Model describing cron jobs (also called actions or tasks).
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (28, 'ir.filters', 'Filters', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (29, 'ir.values', 'ir.values', 'base', 'Holds internal model-specific action bindings and user-defined default
+       field values. definitions. This is a legacy internal model, mixing
+       two different concepts, and will likely be updated or replaced in a
+       future version by cleaner, separate models. You should not depend
+       explicitly on it.
+
+       The purpose of each ``ir.values`` entry depends on its type, defined
+       by the ``key`` column:
+
+        * ''default'': user-defined default values, used when creating new
+          records of this model:
+        * ''action'': binding of an action to a particular *action slot* of
+          this model, making the action easily available in the user
+          interface for this model.
+
+       The ``key2`` column acts as a qualifier, further refining the type
+       of the entry. The possible values are:
+
+        * for ''default'' entries: an optional condition restricting the
+          cases where this particular default value will be applicable,
+          or ``False`` for no condition
+        * for ''action'' entries: the ``key2`` qualifier is one of the available
+          action slots, defining how this action can be invoked:
+
+            * ``''client_print_multi''`` for report printing actions that will
+              be available on views displaying items from this model
+            * ``''client_action_multi''`` for assistants (wizards) actions
+              that will be available in views displaying objects of this model
+            * ``''client_action_relate''`` for links towards related documents
+              that should be available in views displaying objects of this model
+            * ``''tree_but_open''`` for actions that will be triggered when
+              double-clicking an item from this model in a hierarchical tree view
+
+       Each entry is specific to a model (``model`` column), and for ``''actions''``
+       type, may even be made specific to a given record of that model when the
+       ``res_id`` column contains a record ID (``False`` means it''s global for
+       all records).
+
+       The content of the entry is defined by the ``value`` column, which may either
+       contain an arbitrary value, or a reference string defining the action that
+       should be executed.
+
+       .. rubric:: Usage: default values
+       
+       The ``''default''`` entries are usually defined manually by the
+       users, and set by their UI clients calling :meth:`~.set_default`.
+       These default values are then automatically used by the
+       ORM every time a new record is about to be created, i.e. when
+       :meth:`~openerp.osv.osv.osv.default_get`
+       or :meth:`~openerp.osv.osv.osv.create` are called.
+
+       .. rubric:: Usage: action bindings
+
+       Business applications will usually bind their actions during
+       installation, and OpenERP UI clients will apply them as defined,
+       based on the list of actions included in the result of
+       :meth:`~openerp.osv.osv.osv.fields_view_get`,
+       or directly returned by explicit calls to :meth:`~.get_actions`.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (30, 'ir.translation', 'ir.translation', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (31, 'ir.exports', 'ir.exports', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (32, 'ir.exports.line', 'ir.exports.line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (33, 'workflow', 'workflow', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (34, 'workflow.activity', 'workflow.activity', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (35, 'workflow.transition', 'workflow.transition', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (36, 'workflow.instance', 'workflow.instance', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (37, 'workflow.workitem', 'workflow.workitem', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (38, 'workflow.triggers', 'workflow.triggers', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (39, 'ir.rule', 'ir.rule', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (40, 'wizard.ir.model.menu.create', 'wizard.ir.model.menu.create', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (41, 'ir.config_parameter', 'ir.config_parameter', 'base', 'Per-database storage of configuration key-value pairs.', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (42, 'osv_memory.autovacuum', 'osv_memory.autovacuum', 'base', ' Expose the osv_memory.vacuum() method to the cron jobs mechanism. ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (43, 'ir.mail_server', 'ir.mail_server', 'base', 'Represents an SMTP server, able to send outgoing emails, with SSL and TLS capabilities.', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (44, 'ir.fields.converter', 'ir.fields.converter', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (45, 'ir.module.category', 'Application', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (46, 'ir.module.module', 'Module', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (47, 'ir.module.module.dependency', 'Module dependency', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (48, 'base.module.import', 'Import Module', 'base', ' Import Module ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (49, 'base.module.update', 'Update Module', 'base', ' Update Module ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (50, 'base.language.install', 'Install Language', 'base', ' Install Language', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (51, 'base.language.import', 'Language Import', 'base', ' Language Import ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (52, 'base.module.upgrade', 'Module Upgrade', 'base', ' Module Upgrade ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (53, 'base.module.configuration', 'base.module.configuration', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (54, 'base.language.export', 'base.language.export', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (55, 'base.update.translations', 'base.update.translations', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (56, 'res.country', 'Country', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (57, 'res.country.state', 'Country state', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (58, 'res.lang', 'Languages', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (59, 'res.partner.category', 'Partner Categories', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (60, 'res.partner.title', 'res.partner.title', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (61, 'res.partner', 'Partner', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (62, 'res.bank', 'Bank', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (63, 'res.partner.bank.type', 'Bank Account Type', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (64, 'res.partner.bank.type.field', 'Bank type fields', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (65, 'res.partner.bank', 'Bank Accounts', 'base', 'Bank Accounts', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (66, 'res.config', 'res.config', 'base', ' Base classes for new-style configuration items
+
+    Configuration items should inherit from this class, implement
+    the execute method (and optionally the cancel one) and have
+    their view inherit from the related res_config_view_base view.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (67, 'res.config.installer', 'res.config.installer', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (68, 'ir.actions.configuration.wizard', 'ir.actions.configuration.wizard', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (69, 'res.config.settings', 'res.config.settings', 'base', ' Base configuration wizard for application settings.  It provides support for setting
+        default values, assigning groups to employee users, and installing modules.
+        To make such a ''settings'' wizard, define a model like::
+
+            class my_config_wizard(osv.osv_memory):
+                _name = ''my.settings''
+                _inherit = ''res.config.settings''
+                _columns = {
+                    ''default_foo'': fields.type(..., default_model=''my.model''),
+                    ''group_bar'': fields.boolean(..., group=''base.group_user'', implied_group=''my.group''),
+                    ''module_baz'': fields.boolean(...),
+                    ''other_field'': fields.type(...),
+                }
+
+        The method ``execute`` provides some support based on a naming convention:
+
+        *   For a field like ''default_XXX'', ``execute`` sets the (global) default value of
+            the field ''XXX'' in the model named by ``default_model`` to the field''s value.
+
+        *   For a boolean field like ''group_XXX'', ``execute`` adds/removes ''implied_group''
+            to/from the implied groups of ''group'', depending on the field''s value.
+            By default ''group'' is the group Employee.  Groups are given by their xml id.
+
+        *   For a boolean field like ''module_XXX'', ``execute`` triggers the immediate
+            installation of the module named ''XXX'' if the field has value ``True``.
+
+        *   For the other fields, the method ``execute`` invokes all methods with a name
+            that starts with ''set_''; such methods can be defined to implement the effect
+            of those fields.
+
+        The method ``default_get`` retrieves values that reflect the current status of the
+        fields like ''default_XXX'', ''group_XXX'' and ''module_XXX''.  It also invokes all methods
+        with a name that starts with ''get_default_''; such methods can be defined to provide
+        current values for other fields.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (70, 'res.currency', 'Currency', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (71, 'res.currency.rate.type', 'Currency Rate Type', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (72, 'res.currency.rate', 'Currency Rate', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (73, 'multi_company.default', 'Default multi company', 'base', '
+    Manage multi company default value
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (74, 'res.company', 'Companies', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (75, 'res.groups', 'Access Groups', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (76, 'res.users', 'Users', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (77, 'res.request', 'res.request', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (78, 'res.request.link', 'res.request.link', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (79, 'res.request.history', 'res.request.history', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (80, 'ir.property', 'ir.property', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (81, 'change.password.wizard', 'Change Password Wizard', 'base', '
+        A wizard to manage the change of users'' passwords
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (82, 'change.password.user', 'Change Password Wizard User', 'base', '
+        A model to configure users in the change password wizard
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (83, 'process.process', 'Process', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (84, 'process.node', 'Process Node', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (85, 'process.condition', 'Condition', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (86, 'process.transition', 'Process Transition', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (87, 'process.transition.action', 'Process Transitions Actions', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (88, 'board.board', 'Board', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (89, 'board.create', 'Board Creation', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (90, 'decimal.precision', 'decimal.precision', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (91, 'base.setup.terminology', 'base.setup.terminology', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (92, 'base.config.settings', 'base.config.settings', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (93, 'sale.config.settings', 'sale.config.settings', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (94, 'mail.message.subtype', 'Message subtypes', 'base', ' Class holding subtype definition for messages. Subtypes allow to tune
+        the follower subscription, allowing only some subtypes to be pushed
+        on the Wall. ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (95, 'mail.alias', 'Email Aliases', 'base', 'A Mail Alias is a mapping of an email address with a given OpenERP Document
+       model. It is used by OpenERP''s mail gateway when processing incoming emails
+       sent to the system. If the recipient address (To) of the message matches
+       a Mail Alias, the message will be either processed following the rules
+       of that alias. If the message is a reply it will be attached to the
+       existing discussion on the corresponding record, otherwise a new
+       record of the corresponding model will be created.
+       
+       This is meant to be used in combination with a catch-all email configuration
+       on the company''s mail server, so that as soon as a new mail.alias is
+       created, it becomes immediately usable and OpenERP will accept email for it.
+     ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (96, 'mail.followers', 'Document Followers', 'base', ' mail_followers holds the data related to the follow mechanism inside
+        OpenERP. Partners can choose to follow documents (records) of any kind
+        that inherits from mail.thread. Following documents allow to receive
+        notifications for new messages.
+        A subscription is characterized by:
+            :param: res_model: model of the followed objects
+            :param: res_id: ID of resource (may be 0 for every objects)
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (97, 'mail.notification', 'Notifications', 'base', ' Class holding notifications pushed to partners. Followers and partners
+        added in ''contacts to notify'' receive notifications. ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (98, 'mail.message', 'Message', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (99, 'mail.mail', 'Outgoing Mails', 'base', ' Model holding RFC2822 email messages to send. This model also provides
+        facilities to queue and send new email messages.  ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (152, 'account.chart.template', 'Templates for Account Chart', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (153, 'account.fiscal.position.template', 'Template for Fiscal Position', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (154, 'account.fiscal.position.tax.template', 'Template Tax Fiscal Position', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (155, 'account.fiscal.position.account.template', 'Template Account Fiscal Mapping', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (156, 'wizard.multi.charts.accounts', 'wizard.multi.charts.accounts', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (157, 'account.bank.accounts.wizard', 'account.bank.accounts.wizard', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (158, 'account.installer', 'account.installer', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (426, 'note.tag', 'Note Tag', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (100, 'mail.thread', 'Email Thread', 'base', ' mail_thread model is meant to be inherited by any model that needs to
+        act as a discussion topic on which messages can be attached. Public
+        methods are prefixed with ``message_`` in order to avoid name
+        collisions with methods of the models that will inherit from this class.
+
+        ``mail.thread`` defines fields used to handle and display the
+        communication history. ``mail.thread`` also manages followers of
+        inheriting classes. All features and expected behavior are managed
+        by mail.thread. Widgets has been designed for the 7.0 and following
+        versions of OpenERP.
+
+        Inheriting classes are not required to implement any method, as the
+        default implementation will work for any model. However it is common
+        to override at least the ``message_new`` and ``message_update``
+        methods (calling ``super``) to add model-specific behavior at
+        creation and update of a thread when processing incoming emails.
+
+        Options:
+            - _mail_flat_thread: if set to True, all messages without parent_id
+                are automatically attached to the first message posted on the
+                ressource. If set to False, the display of Chatter is done using
+                threads, and no parent_id is automatically set.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (101, 'mail.group', 'Discussion group', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (102, 'mail.wizard.invite', 'Invite wizard', 'base', ' Wizard to invite partners and make them followers. ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (103, 'mail.compose.message', 'Email composition wizard', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (104, 'publisher_warranty.contract', 'publisher_warranty.contract', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (105, 'account.analytic.account', 'Analytic Account', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (106, 'account.analytic.line', 'Analytic Line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (107, 'email.template', 'Email Templates', 'base', 'Templates for sending email', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (108, 'email_template.preview', 'Email Template Preview', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (109, 'fetchmail.server', 'POP/IMAP Server', 'base', 'Incoming POP/IMAP mail server account', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (110, 'fetchmail.config.settings', 'fetchmail.config.settings', 'base', ' This wizard can be inherited in conjunction with ''res.config.settings'', in order to
+        define fields that configure a fetchmail server.
+
+        It relies on the following convention on the object::
+
+            class my_config_settings(osv.osv_memory):
+                _name = ''my.settings''
+                _inherit = [''res.config.settings'', ''fetchmail.config.settings'']
+
+                _columns = {
+                    ''fetchmail_stuff'': fields.boolean(...,
+                        fetchmail_model=''my.stuff'', fetchmail_name=''Incoming Stuff''),
+                }
+
+                def configure_fetchmail_stuff(self, cr, uid, ids, context=None):
+                    return self.configure_fetchmail(cr, uid, ''fetchmail_stuff'', context)
+
+        and in the form view::
+
+            <field name="fetchmail_stuff"/>
+            <button type="object" name="configure_fetchmail_stuff"/>
+
+        The method ``get_default_fetchmail`` determines the value of all fields that start
+        with ''fetchmail_''.  It looks up fetchmail server configurations that match the given
+        model name (``fetchmail_model``) and are active.
+
+        The button action ``configure_fetchmail_stuff`` is caught by the object, and calls
+        automatically the method ``configure_fetchmail``; it opens the fetchmail server
+        configuration form for the corresponding field.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (111, 'product.uom.categ', 'Product uom categ', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (112, 'product.uom', 'Product Unit of Measure', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (113, 'product.ul', 'Shipping Unit', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (114, 'product.category', 'Product Category', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (115, 'product.template', 'Product Template', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (116, 'product.product', 'Product', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (117, 'product.packaging', 'Packaging', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (118, 'product.supplierinfo', 'Information about a product supplier', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (119, 'pricelist.partnerinfo', 'pricelist.partnerinfo', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (120, 'product.price.type', 'Price Type', 'base', '
+        The price type is used to points which field in the product form
+        is a price and in which currency is this price expressed.
+        When a field is a price, you can use it in pricelists to base
+        sale and purchase prices based on some fields of the product.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (121, 'product.pricelist.type', 'Pricelist Type', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (122, 'product.pricelist', 'Pricelist', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (123, 'product.pricelist.version', 'Pricelist Version', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (124, 'product.pricelist.item', 'Pricelist item', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (125, 'product.price_list', 'Price List', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (126, 'share.wizard', 'Share Wizard', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (127, 'share.wizard.result.line', 'share.wizard.result.line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (128, 'edi.edi', 'EDI Subsystem', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (129, 'account.fiscal.position', 'Fiscal Position', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (130, 'account.fiscal.position.tax', 'Taxes Fiscal Position', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (131, 'account.fiscal.position.account', 'Accounts Fiscal Position', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (132, 'account.payment.term', 'Payment Term', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (133, 'account.payment.term.line', 'Payment Term Line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (134, 'account.account.type', 'Account Type', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (135, 'account.tax', 'Tax', 'base', '
+    A tax object.
+
+    Type: percent, fixed, none, code
+        PERCENT: tax = price * amount
+        FIXED: tax = price + amount
+        NONE: no tax line
+        CODE: execute python code. localcontext = {''price_unit'':pu}
+            return result in the context
+            Ex: result=round(price_unit*0.21,4)
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (136, 'account.account', 'Account', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (137, 'account.journal', 'Journal', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (138, 'account.fiscalyear', 'Fiscal Year', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (139, 'account.period', 'Account period', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (140, 'account.journal.period', 'Journal Period', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (141, 'account.move', 'Account Entry', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (142, 'account.move.reconcile', 'Account Reconciliation', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (143, 'account.tax.code', 'Tax Code', 'base', '
+    A code for the tax object.
+
+    This code is used for some tax declarations.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (144, 'account.model', 'Account Model', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (145, 'account.model.line', 'Account Model Entries', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (146, 'account.subscription', 'Account Subscription', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (147, 'account.subscription.line', 'Account Subscription Line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (148, 'account.tax.template', 'Templates for Taxes', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (149, 'account.account.template', 'Templates for Accounts', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (150, 'account.addtmpl.wizard', 'account.addtmpl.wizard', 'base', 'Add one more account from the template.
+
+    With the ''nocreate'' option, some accounts may not be created. Use this to add them later.', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (151, 'account.tax.code.template', 'Tax Code Template', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (159, 'account.analytic.journal', 'Analytic Journal', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (160, 'account.analytic.journal.report', 'Account Analytic Journal', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (161, 'account.analytic.balance', 'Account Analytic Balance', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (162, 'account.analytic.inverted.balance', 'Account Analytic Inverted Balance', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (163, 'account.analytic.cost.ledger', 'Account Analytic Cost Ledger', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (164, 'account.analytic.cost.ledger.journal.report', 'Account Analytic Cost Ledger For Journal Report', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (165, 'project.account.analytic.line', 'Analytic Entries by line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (166, 'account.analytic.chart', 'Account Analytic Chart', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (167, 'account.invoice', 'Invoice', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (168, 'account.invoice.line', 'Invoice Line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (169, 'account.invoice.tax', 'Invoice Tax', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (170, 'account.bank.statement', 'Bank Statement', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (171, 'account.bank.statement.line', 'Bank Statement Line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (172, 'account.cashbox.line', 'CashBox Line', 'base', ' Cash Box Details ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (173, 'account.journal.cashbox.line', 'account.journal.cashbox.line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (174, 'account.move.line', 'Journal Items', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (175, 'account.financial.report', 'Account Report', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (176, 'account.common.report', 'Account Common Report', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (177, 'account.common.partner.report', 'Account Common Partner Report', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (178, 'account.common.journal.report', 'Account Common Journal Report', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (179, 'account.common.account.report', 'Account Common Account Report', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (180, 'account.automatic.reconcile', 'Automatic Reconcile', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (181, 'account.move.line.reconcile.select', 'Move line reconcile select', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (182, 'account.move.line.unreconcile.select', 'Unreconciliation', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (183, 'account.partner.reconcile.process', 'Reconcilation Process partner by partner', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (184, 'account.move.line.reconcile', 'Account move line reconcile', 'base', '
+    Account move line reconcile wizard, it checks for the write off the reconcile entry or directly reconcile.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (185, 'account.move.line.reconcile.writeoff', 'Account move line reconcile (writeoff)', 'base', '
+    It opens the write off wizard form, in that user can define the journal, account, analytic account for reconcile
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (186, 'account.unreconcile', 'Account Unreconcile', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (187, 'account.unreconcile.reconcile', 'Account Unreconcile Reconcile', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (188, 'account.invoice.refund', 'Invoice Refund', 'base', 'Refunds invoice', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (189, 'account.journal.select', 'Account Journal Select', 'base', '
+        Account Journal Select
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (190, 'account.move.bank.reconcile', 'Move bank reconcile', 'base', '
+        Bank Reconciliation
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (191, 'account.subscription.generate', 'Subscription Compute', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (192, 'account.aged.trial.balance', 'Account Aged Trial balance Report', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (193, 'account.partner.ledger', 'Account Partner Ledger', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (194, 'account.partner.balance', 'Print Account Partner Balance', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (195, 'account.period.close', 'period close', 'base', '
+        close period
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (196, 'account.fiscalyear.close', 'Fiscalyear Close', 'base', '
+    Closes Account Fiscalyear and Generate Opening entries for New Fiscalyear
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (197, 'account.fiscalyear.close.state', 'Fiscalyear Close state', 'base', '
+    Closes  Account Fiscalyear
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (198, 'account.vat.declaration', 'Account Vat Declaration', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (199, 'account.open.closed.fiscalyear', 'Choose Fiscal Year', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (200, 'account.invoice.confirm', 'Confirm the selected invoices', 'base', '
+    This wizard will confirm the all the selected draft invoices
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (201, 'account.invoice.cancel', 'Cancel the Selected Invoices', 'base', '
+    This wizard will cancel the all the selected invoices.
+    If in the journal, the option allow cancelling entry is not selected then it will give warning message.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (202, 'account.chart', 'Account chart', 'base', '
+    For Chart of Accounts
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (203, 'account.tax.chart', 'Account tax chart', 'base', '
+    For Chart of taxes
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (204, 'accounting.report', 'Accounting Report', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (205, 'validate.account.move', 'Validate Account Move', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (206, 'validate.account.move.lines', 'Validate Account Move Lines', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (207, 'account.use.model', 'Use model', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (208, 'account.state.open', 'Account State Open', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (209, 'account.print.journal', 'Account Print Journal', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (210, 'account.central.journal', 'Account Central Journal', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (211, 'account.general.journal', 'Account General Journal', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (212, 'account.report.general.ledger', 'General Ledger Report', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (213, 'account.balance.report', 'Trial Balance Report', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (214, 'account.change.currency', 'Change Currency', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (215, 'cash.box.in', 'cash.box.in', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (216, 'cash.box.out', 'cash.box.out', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (217, 'account.invoice.report', 'Invoices Statistics', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (218, 'report.account.receivable', 'Receivable accounts', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (219, 'temp.range', 'A Temporary table used for Dashboard view', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (220, 'report.aged.receivable', 'Aged Receivable Till Today', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (221, 'report.invoice.created', 'Report of Invoices Created within Last 15 days', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (222, 'report.account_type.sales', 'Report of the Sales by Account Type', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (223, 'report.account.sales', 'Report of the Sales by Account', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (224, 'account.entries.report', 'Journal Items Analysis', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (225, 'analytic.entries.report', 'Analytic Entries Statistics', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (226, 'account.treasury.report', 'Treasury Analysis', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (227, 'account.sequence.fiscalyear', 'account.sequence.fiscalyear', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (228, 'account.config.settings', 'account.config.settings', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (229, 'portal.wizard', 'Portal Access Management', 'base', '
+        A wizard to manage the creation/removal of portal users.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (230, 'portal.wizard.user', 'Portal User Config', 'base', '
+        A model to configure users in the portal wizard.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (231, 'portal.payment.acquirer', 'Online Payment Acquirer', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (232, 'account.voucher', 'Accounting Voucher', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (427, 'note.note', 'Note', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (233, 'account.voucher.line', 'Voucher Lines', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (234, 'sale.receipt.report', 'Sales Receipt Statistics', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (235, 'account.statement.from.invoice.lines', 'Entries by Statement from Invoices', 'base', '
+    Generate Entries by Statement from Invoices
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (236, 'payment.mode', 'Payment Mode', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (237, 'payment.order', 'Payment Order', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (238, 'payment.line', 'Payment Line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (239, 'payment.order.create', 'payment.order.create', 'base', '
+    Create a payment object with lines corresponding to the account move line
+    to pay according to the date and the mode provided by the user.
+    Hypothesis:
+    - Small number of non-reconciled move line, payment mode and bank account type,
+    - Big number of partner and bank account.
+
+    If a type is given, unsuitable account Entry lines are ignored.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (240, 'account.payment.populate.statement', 'Account Payment Populate Statement', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (241, 'account.payment.make.payment', 'Account make payment', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (242, 'payment.type', 'Payment type', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (243, 'wizard.payment.file.spain', 'wizard.payment.file.spain', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (244, 'payment.converter.spain', 'payment.converter.spain', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (245, 'csb.19', 'csb.19', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (246, 'csb.32', 'csb.32', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (247, 'csb.34', 'csb.34', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (248, 'csb.3401', 'csb.3401', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (249, 'csb.58', 'csb.58', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (250, 'res.better.zip', ' City/locations completion object', 'base', ' City/locations completion object', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (251, 'config.es.toponyms', 'config.es.toponyms', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (264, 'resource.calendar', 'Resource Calendar', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (265, 'resource.calendar.attendance', 'Work Detail', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (266, 'resource.resource', 'Resource Detail', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (267, 'resource.calendar.leaves', 'Leave Detail', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (268, 'stock.incoterms', 'Incoterms', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (269, 'stock.journal', 'Stock Journal', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (270, 'stock.location', 'Location', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (271, 'stock.tracking', 'Packs', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (272, 'stock.picking', 'Picking List', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (273, 'stock.production.lot', 'Serial Number', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (274, 'stock.production.lot.revision', 'Serial Number Revision', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (275, 'stock.move', 'Stock Move', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (276, 'stock.inventory', 'Inventory', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (277, 'stock.inventory.line', 'Inventory Line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (278, 'stock.warehouse', 'Warehouse', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (279, 'stock.picking.in', 'Incoming Shipments', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (280, 'stock.picking.out', 'Delivery Orders', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (281, 'stock.report.prodlots', 'Stock report by serial number', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (282, 'stock.report.tracklots', 'Stock report by logistic serial number', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (283, 'report.stock.lines.date', 'Dates of Inventories', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (284, 'report.stock.move', 'Moves Statistics', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (285, 'report.stock.inventory', 'Stock Statistics', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (286, 'action.traceability', 'Action traceability ', 'base', '
+    This class defines a function action_traceability for wizard
+
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (287, 'stock.move.consume', 'Consume Products', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (288, 'stock.move.scrap', 'Scrap Products', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (289, 'stock.move.split', 'Split in Serial Numbers', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (290, 'stock.move.split.lines', 'Stock move Split lines', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (291, 'stock.split.into', 'Split into', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (292, 'stock.partial.picking.line', 'stock.partial.picking.line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (293, 'stock.partial.picking', 'Partial Picking Processing Wizard', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (294, 'stock.partial.move.line', 'stock.partial.move.line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (295, 'stock.partial.move', 'Partial Move Processing Wizard', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (296, 'stock.inventory.merge', 'Merge Inventory', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (297, 'stock.fill.inventory', 'Import Inventory', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (298, 'stock.inventory.line.split', 'Split inventory lines', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (299, 'stock.inventory.line.split.lines', 'Inventory Split lines', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (300, 'stock.invoice.onshipping', 'Stock Invoice Onshipping', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (301, 'stock.location.product', 'Products by Location', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (302, 'stock.change.standard.price', 'Change Standard Price', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (303, 'stock.return.picking.memory', 'stock.return.picking.memory', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (304, 'stock.return.picking', 'Return Picking', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (305, 'stock.change.product.qty', 'Change Product Quantity', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (306, 'stock.config.settings', 'stock.config.settings', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (307, 'mrp.property.group', 'Property Group', 'base', '
+    Group of mrp properties.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (308, 'mrp.property', 'Property', 'base', '
+    Properties of mrp.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (309, 'procurement.order', 'Procurement', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (310, 'stock.warehouse.orderpoint', 'Minimum Inventory Rule', 'base', '
+    Defines Minimum stock rules.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (311, 'procurement.orderpoint.compute', 'Automatic Order Point', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (312, 'procurement.order.compute', 'Compute Procurement', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (313, 'procurement.order.compute.all', 'Compute all schedulers', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (314, 'make.procurement', 'Make Procurements', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (335, 'base_import.import', 'base_import.import', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (336, 'base_import.tests.models.char', 'base_import.tests.models.char', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (337, 'base_import.tests.models.char.required', 'base_import.tests.models.char.required', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (338, 'base_import.tests.models.char.readonly', 'base_import.tests.models.char.readonly', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (339, 'base_import.tests.models.char.states', 'base_import.tests.models.char.states', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (340, 'base_import.tests.models.char.noreadonly', 'base_import.tests.models.char.noreadonly', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (341, 'base_import.tests.models.char.stillreadonly', 'base_import.tests.models.char.stillreadonly', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (342, 'base_import.tests.models.m2o', 'base_import.tests.models.m2o', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (343, 'base_import.tests.models.m2o.related', 'base_import.tests.models.m2o.related', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (344, 'base_import.tests.models.m2o.required', 'base_import.tests.models.m2o.required', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (345, 'base_import.tests.models.m2o.required.related', 'base_import.tests.models.m2o.required.related', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (346, 'base_import.tests.models.o2m', 'base_import.tests.models.o2m', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (347, 'base_import.tests.models.o2m.child', 'base_import.tests.models.o2m.child', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (348, 'base_import.tests.models.preview', 'base_import.tests.models.preview', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (357, 'account.check.write', 'Prin Check in Batch', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (358, 'account_followup.followup', 'Account Follow-up', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (359, 'account_followup.followup.line', 'Follow-up Criteria', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (360, 'account_followup.stat.by.partner', 'Follow-up Statistics by Partner', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (361, 'account_followup.sending.results', 'Results from the sending of the different letters and emails', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (362, 'account_followup.print', 'Print Follow-up & Send Mail to Customers', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (363, 'account_followup.stat', 'Follow-up Statistics', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (364, 'base.action.rule', 'Action Rules', 'base', ' Base Action Rules ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (365, 'base.action.rule.lead.test', 'base.action.rule.lead.test', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (366, 'calendar.attendee', 'Attendee information', 'base', '
+    Calendar Attendee Information
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (367, 'res.alarm', 'Basic Alarm Information', 'base', 'Resource Alarm ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (368, 'calendar.alarm', 'Event alarm information', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (369, 'calendar.event', 'Calendar Event', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (370, 'calendar.todo', 'Calendar Task', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (371, 'crm.meeting.type', 'Meeting Type', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (372, 'crm.meeting', 'Meeting', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (373, 'crm.case.channel', 'Channels', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (374, 'crm.case.stage', 'Stage of case', 'base', ' Model for case stages. This models the main stages of a document
+        management flow. Main CRM objects (leads, opportunities, project
+        issues, ...) will now use only stages, instead of state and stages.
+        Stages are for example used to display the kanban view of records.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (375, 'crm.case.section', 'Sales Teams', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (376, 'crm.case.categ', 'Category of Case', 'base', ' Category of Case ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (377, 'crm.case.resource.type', 'Campaign', 'base', ' Resource Type of case ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (378, 'crm.payment.mode', 'CRM Payment Mode', 'base', ' Payment Mode for Fund ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (379, 'crm.segmentation', 'Partner Segmentation', 'base', '
+        A segmentation is a tool to automatically assign categories on partners.
+        These assignations are based on criterions.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (380, 'crm.segmentation.line', 'Segmentation line', 'base', ' Segmentation line ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (381, 'crm.lead', 'Lead/Opportunity', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (382, 'crm.phonecall', 'Phonecall', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (383, 'crm.lead.report', 'CRM Lead Analysis', 'base', ' CRM Lead Analysis ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (384, 'crm.phonecall.report', 'Phone calls by user and section', 'base', ' Phone calls by user and section ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (385, 'crm.partner.binding', 'Handle partner binding or generation in CRM wizards.', 'base', '
+    Handle the partner binding or generation in any CRM wizard that requires
+    such feature, like the lead2opportunity wizard, or the
+    phonecall2opportunity wizard.  Try to find a matching partner from the
+    CRM model''s information (name, email, phone number, etc) or create a new
+    one on the fly.
+    Use it like a mixin with the wizard of your choice.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (386, 'crm.phonecall2phonecall', 'Phonecall To Phonecall', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (387, 'crm.opportunity2phonecall', 'Opportunity to Phonecall', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (388, 'crm.lead2opportunity.partner', 'Lead To Opportunity Partner', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (389, 'crm.lead2opportunity.partner.mass', 'Mass Lead To Opportunity Partner', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (390, 'crm.merge.opportunity', 'Merge opportunities', 'base', '
+    Merge opportunities together.
+    If we''re talking about opportunities, it''s just because it makes more sense
+    to merge opps than leads, because the leads are more ephemeral objects.
+    But since opportunities are leads, it''s also possible to merge leads
+    together (resulting in a new lead), or leads and opps together (resulting
+    in a new opp).
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (391, 'res.partner.grade', 'res.partner.grade', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (392, 'res.partner.activation', 'res.partner.activation', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (393, 'crm.lead.forward.to.partner', 'Email composition wizard', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (394, 'crm.lead.report.assign', 'CRM Lead Report', 'base', ' CRM Lead Report ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (395, 'crm.partner.report.assign', 'CRM Partner Report', 'base', ' CRM Lead Report ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (396, 'portal_crm.crm_contact_us', 'Contact form for the portal', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (397, 'sale.shop', 'Sales Shop', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (398, 'sale.order', 'Sales Order', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (399, 'sale.order.line', 'Sales Order Line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (400, 'sale.make.invoice', 'Sales Make Invoice', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (401, 'sale.order.line.make.invoice', 'Sale OrderLine Make_invoice', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (402, 'sale.advance.payment.inv', 'Sales Advance Payment Invoice', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (403, 'sale.report', 'Sales Orders Statistics', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (404, 'crm.make.sale', 'Make sales', 'base', ' Make sale  order for crm ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (405, 'purchase.order', 'Purchase Order', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (406, 'purchase.order.line', 'Purchase Order Line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (407, 'purchase.order.group', 'Purchase Order Merge', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (408, 'purchase.order.line_invoice', 'Purchase Order Line Make Invoice', 'base', ' To create invoice for purchase order line', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (409, 'purchase.report', 'Purchases Orders', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (410, 'purchase.config.settings', 'purchase.config.settings', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (411, 'mrp.workcenter', 'Work Center', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (412, 'mrp.routing', 'Routing', 'base', '
+    For specifying the routings of Work Centers.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (413, 'mrp.routing.workcenter', 'Work Center Usage', 'base', '
+    Defines working cycles and hours of a Work Center using routings.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (414, 'mrp.bom', 'Bill of Material', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (415, 'mrp.production', 'Manufacturing Order', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (416, 'mrp.production.workcenter.line', 'Work Order', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (417, 'mrp.production.product.line', 'Production Scheduled Product', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (418, 'mrp.product.produce', 'Product Produce', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (419, 'mrp.product_price', 'Product Price', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (420, 'mrp.workcenter.load', 'Work Center Load', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (421, 'change.production.qty', 'Change Quantity of Products', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (422, 'report.workcenter.load', 'Work Center Load', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (423, 'report.mrp.inout', 'Stock value variation', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (424, 'mrp.config.settings', 'mrp.config.settings', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (425, 'note.stage', 'Note Stage', 'base', ' Category of Note ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (428, 'mrp.subproduct', 'Byproduct', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (429, 'delivery.carrier', 'Carrier', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (430, 'delivery.grid', 'Delivery Grid', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (431, 'delivery.grid.line', 'Delivery Grid Line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (432, 'base.report.sxw', 'base.report.sxw', 'base', 'Base Report sxw ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (433, 'base.report.file.sxw', 'base.report.file.sxw', 'base', 'Base Report File sxw ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (434, 'base.report.rml.save', 'base.report.rml.save', 'base', 'Base Report file Save', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (435, 'base_report_designer.installer', 'base_report_designer.installer', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (436, 'ir.header_webkit', 'ir.header_webkit', 'base', 'HTML Header allows you to define HTML CSS and Page format', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (437, 'ir.header_img', 'ir.header_img', 'base', 'Logo allows you to define multiple logo per company', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (438, 'report.webkit.actions', 'Webkit Actions', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (453, 'pad.common', 'pad.common', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (455, 'stock.location.path', 'Pushed Flows', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (456, 'product.pulled.flow', 'Pulled Flows', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (465, 'knowledge.config.settings', 'knowledge.config.settings', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (474, 'account.balance.reporting.template', 'account.balance.reporting.template', 'base', '
+    Account balance report template.
+    It stores the header fields of an account balance report template,
+    and the linked lines of detail with the formulas to calculate
+    the accounting concepts of the report.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (475, 'account.balance.reporting.template.line', 'account.balance.reporting.template.line', 'base', '
+    Account balance report template line / Accounting concept template
+    One line of detail of the balance report representing an accounting
+    concept with the formulas to calculate its values.
+    The accounting concepts follow a parent-children hierarchy.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (476, 'account.balance.reporting', 'account.balance.reporting', 'base', '
+    Account balance report.
+    It stores the configuration/header fields of an account balance report,
+    and the linked lines of detail with the values of the accounting concepts
+    (values generated from the selected template lines of detail formulas).
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (477, 'account.balance.reporting.line', 'account.balance.reporting.line', 'base', '
+    Account balance report line / Accounting concept
+    One line of detail of the balance report representing an accounting
+    concept with its values.
+    The accounting concepts follow a parent-children hierarchy.
+    Its values (current and previous) are calculated based on the ''value''
+    formula of the linked template line.
+    ', NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (478, 'account.balance.reporting.print.wizard', 'account.balance.reporting.print.wizard', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (479, 'account.fiscalyear.closing.account_map', 'Generic account mapping', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (480, 'account.fiscalyear.closing.lp_account_map', 'SFYC Loss & Profit Account Mapping', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (481, 'account.fiscalyear.closing.nlp_account_map', 'SFYC Net Loss & Profit Account Mapping', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (482, 'account.fiscalyear.closing.c_account_map', 'SFYC Closing Account Mapping', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (483, 'account.fiscalyear.closing', 'Fiscal year closing', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (484, 'account.fiscalyear.closing.cancel_wizard', 'Cancel the Fiscal Year Closing', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (485, 'account.fiscalyear.closing.execute_wizard', 'Execute the Fiscal Year Closing', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (486, 'l10n.es.aeat.report', 'AEAT report base module', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (487, 'l10n.es.aeat.report.export_to_boe', 'Export Report to BOE Format', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (488, 'l10n.es.aeat.mod303.report', 'AEAT 303 Report', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (489, 'l10n.es.aeat.mod303.export_to_boe', 'Export Report to BOE Format', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (490, 'account.bank.statement.split.line.wizard', 'account.bank.statement.split.line.wizard', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (491, 'account.bank.statement.line.data', 'account.bank.statement.line.data', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (492, 'account.bank.statement.line.rule', 'account.bank.statement.line.rule', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (493, 'account.asset.category', 'Asset category', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (494, 'account.asset.asset', 'Asset', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (495, 'account.asset.depreciation.line', 'Asset depreciation line', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (496, 'account.asset.history', 'Asset history', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (497, 'asset.modify', 'Modify Asset', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (498, 'asset.depreciation.confirmation.wizard', 'asset.depreciation.confirmation.wizard', 'base', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO ir_model (id, model, name, state, info, create_uid, create_date, write_date, write_uid) VALUES (499, 'asset.asset.report', 'Assets Analysis', 'base', NULL, NULL, NULL, NULL, NULL);
+
+

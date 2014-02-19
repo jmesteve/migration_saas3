@@ -1,0 +1,9 @@
+INSERT INTO product_category (id, parent_left, parent_right, create_uid, create_date, write_date, write_uid, name, sequence, parent_id, type) VALUES (3, 1, 2, 1, '2013-10-22 10:49:02.980175', '2013-10-22 10:49:02.980175', 1, 'Aditivos Alimentarios', NULL, 1, 'normal');
+INSERT INTO product_category (id, parent_left, parent_right, create_uid, create_date, write_date, write_uid, name, sequence, parent_id, type) VALUES (1, 0, 7, 1, '2013-10-22 09:43:16.806587', '2013-10-22 09:43:16.806587', 1, 'All products', NULL, NULL, 'normal');
+INSERT INTO product_category (id, parent_left, parent_right, create_uid, create_date, write_date, write_uid, name, sequence, parent_id, type) VALUES (2, 5, 6, 1, '2013-10-22 09:43:16.806587', '2013-10-22 09:43:16.806587', 1, 'Saleable', NULL, 1, 'normal');
+INSERT INTO product_category (id, parent_left, parent_right, create_uid, create_date, write_date, write_uid, name, sequence, parent_id, type) VALUES (4, 3, 4, 1, '2013-10-22 10:49:28.824953', '2013-10-22 10:49:28.824953', 1, 'Nectar Base', NULL, 1, 'normal');
+INSERT INTO product_category (id, parent_left, parent_right, create_uid, create_date, write_date, write_uid, name, sequence, parent_id, type) VALUES (5, 8, 11, 4, '2013-10-22 20:40:59.161658', '2013-10-22 20:40:59.161658', 4, 'Concentrados de Frutas', NULL, NULL, 'normal');
+INSERT INTO product_category (id, parent_left, parent_right, create_uid, create_date, write_date, write_uid, name, sequence, parent_id, type) VALUES (6, 9, 10, 4, '2013-10-22 20:41:09.280352', '2013-10-22 20:41:09.280352', 4, 'Concentrados de Frutas', NULL, 5, 'normal');
+INSERT INTO product_category (id, parent_left, parent_right, create_uid, create_date, write_date, write_uid, name, sequence, parent_id, type) VALUES (7, 12, 13, 1, '2014-01-10 12:48:52.879098', '2014-01-10 12:48:52.879098', 1, 'Gastos ', NULL, NULL, 'normal');
+
+

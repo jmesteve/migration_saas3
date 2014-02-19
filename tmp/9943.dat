@@ -1,0 +1,12 @@
+INSERT INTO process_process (id, create_uid, create_date, write_date, write_uid, active, model_id, note, name) VALUES (1, 1, '2013-10-22 09:43:16.806587', '2013-11-29 16:31:55.214096', 1, true, 116, NULL, 'Product');
+INSERT INTO process_process (id, create_uid, create_date, write_date, write_uid, active, model_id, note, name) VALUES (2, 1, '2013-10-22 09:43:37.857705', '2013-11-29 16:32:01.682341', 1, true, 170, NULL, 'Statement');
+INSERT INTO process_process (id, create_uid, create_date, write_date, write_uid, active, model_id, note, name) VALUES (3, 1, '2013-10-22 09:43:37.857705', '2013-11-29 16:32:01.682341', 1, true, 167, NULL, 'Customer Invoice');
+INSERT INTO process_process (id, create_uid, create_date, write_date, write_uid, active, model_id, note, name) VALUES (4, 1, '2013-10-22 09:43:37.857705', '2013-11-29 16:32:01.682341', 1, true, 167, NULL, 'Supplier Invoice');
+INSERT INTO process_process (id, create_uid, create_date, write_date, write_uid, active, model_id, note, name) VALUES (9, 1, '2013-10-23 11:31:10.345281', '2013-11-29 16:32:11.289682', 1, true, NULL, NULL, 'Contract');
+INSERT INTO process_process (id, create_uid, create_date, write_date, write_uid, active, model_id, note, name) VALUES (5, 1, '2013-10-22 10:27:58.754808', '2013-11-29 16:32:59.583443', 1, true, 309, NULL, 'Procurement');
+INSERT INTO process_process (id, create_uid, create_date, write_date, write_uid, active, model_id, note, name) VALUES (6, 1, '2013-10-22 10:27:58.754808', '2013-11-29 16:32:59.583443', 1, true, 309, NULL, 'Service');
+INSERT INTO process_process (id, create_uid, create_date, write_date, write_uid, active, model_id, note, name) VALUES (10, 1, '2013-11-09 16:21:19.702831', '2013-11-29 16:33:01.200245', 1, true, 398, NULL, 'Sales');
+INSERT INTO process_process (id, create_uid, create_date, write_date, write_uid, active, model_id, note, name) VALUES (11, 1, '2013-11-09 16:51:47.013011', '2013-11-29 16:33:10.0871', 1, true, 405, NULL, 'Purchase');
+INSERT INTO process_process (id, create_uid, create_date, write_date, write_uid, active, model_id, note, name) VALUES (12, 1, '2013-11-09 16:52:08.508367', '2013-11-29 16:33:19.339537', 1, true, 309, NULL, 'Stockable Product');
+
+

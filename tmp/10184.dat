@@ -1,0 +1,12 @@
+INSERT INTO wkf (id, name, osv, on_create, create_uid, create_date, write_date, write_uid) VALUES (1, 'account.invoice.basic', 'account.invoice', true, 1, '2013-10-22 09:43:37.857705', '2013-11-29 16:32:01.682341', 1);
+INSERT INTO wkf (id, name, osv, on_create, create_uid, create_date, write_date, write_uid) VALUES (2, 'account.voucher.basic', 'account.voucher', true, 1, '2013-10-22 09:43:57.109501', '2013-11-29 16:32:15.514208', 1);
+INSERT INTO wkf (id, name, osv, on_create, create_uid, create_date, write_date, write_uid) VALUES (5, 'stock.picking.basic', 'stock.picking', true, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1);
+INSERT INTO wkf (id, name, osv, on_create, create_uid, create_date, write_date, write_uid) VALUES (3, 'Payment Order Workflow', 'payment.order', true, 1, '2013-10-22 09:52:45.580941', '2013-11-29 16:32:25.018363', 1);
+INSERT INTO wkf (id, name, osv, on_create, create_uid, create_date, write_date, write_uid) VALUES (6, 'procurement.order.basic', 'procurement.order', true, 1, '2013-10-22 10:27:58.754808', '2013-11-29 16:32:59.583443', 1);
+INSERT INTO wkf (id, name, osv, on_create, create_uid, create_date, write_date, write_uid) VALUES (10, 'sale.order.basic', 'sale.order', true, 1, '2013-11-09 16:21:19.702831', '2013-11-29 16:33:01.200245', 1);
+INSERT INTO wkf (id, name, osv, on_create, create_uid, create_date, write_date, write_uid) VALUES (11, 'Purchase Order Basic Workflow', 'purchase.order', true, 1, '2013-11-09 16:51:47.013011', '2013-11-29 16:33:10.0871', 1);
+INSERT INTO wkf (id, name, osv, on_create, create_uid, create_date, write_date, write_uid) VALUES (12, 'mrp.production.basic', 'mrp.production', true, 1, '2013-11-09 16:52:08.508367', '2013-11-29 16:33:19.339537', 1);
+INSERT INTO wkf (id, name, osv, on_create, create_uid, create_date, write_date, write_uid) VALUES (14, 'Account balance report workflow', 'account.balance.reporting', true, 1, '2014-01-10 15:56:47.893711', '2014-01-10 15:56:47.893711', 1);
+INSERT INTO wkf (id, name, osv, on_create, create_uid, create_date, write_date, write_uid) VALUES (15, 'Spanish Fiscal Year Closing workflow', 'account.fiscalyear.closing', true, 1, '2014-02-05 10:16:40.618258', '2014-02-05 10:16:40.618258', 1);
+
+

@@ -1,0 +1,3 @@
+INSERT INTO crm_case_section (id, create_uid, create_date, write_date, write_uid, working_hours, alias_id, code, active, change_responsible, user_id, name, note, parent_id, complete_name, reply_to, resource_calendar_id) VALUES (1, 1, '2013-10-23 11:31:10.345281', '2013-10-23 11:31:10.345281', 1, NULL, 7, 'Sales', true, false, NULL, 'Sales Department', NULL, NULL, 'Sales Department', NULL, NULL);
+
+

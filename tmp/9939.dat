@@ -1,0 +1,4 @@
+INSERT INTO process_condition (id, create_uid, create_date, write_date, write_uid, model_id, node_id, model_states, name) VALUES (3, 1, '2013-11-09 16:51:47.013011', '2013-11-29 16:33:10.0871', 1, 405, 69, 'not object.origin', 'condition_origin');
+INSERT INTO process_condition (id, create_uid, create_date, write_date, write_uid, model_id, node_id, model_states, name) VALUES (4, 1, '2013-11-09 16:51:47.013011', '2013-11-29 16:33:10.0871', 1, 405, 72, 'object.invoice_method==''manual''', 'condition_invoice_manual');
+
+

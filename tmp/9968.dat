@@ -1,0 +1,7 @@
+INSERT INTO product_pricelist (id, create_uid, create_date, write_date, write_uid, currency_id, name, active, type, company_id) VALUES (1, 1, '2013-10-22 09:43:16.806587', '2013-11-22 09:02:01.286068', 1, 1, 'Public Pricelist', true, 'sale', NULL);
+INSERT INTO product_pricelist (id, create_uid, create_date, write_date, write_uid, currency_id, name, active, type, company_id) VALUES (3, 1, '2013-11-09 16:51:47.013011', '2013-11-22 09:03:38.731498', 1, 1, 'Default Purchase Pricelist', true, 'purchase', NULL);
+INSERT INTO product_pricelist (id, create_uid, create_date, write_date, write_uid, currency_id, name, active, type, company_id) VALUES (5, 1, '2013-11-26 09:03:53.825233', '2013-11-26 09:03:53.825233', 1, 1, 'ZUKAN', true, 'purchase', NULL);
+INSERT INTO product_pricelist (id, create_uid, create_date, write_date, write_uid, currency_id, name, active, type, company_id) VALUES (6, 7, '2013-11-29 11:16:40.588978', '2013-11-29 11:18:53.003813', 7, 1, 'Sin Transporte Incluido', true, 'sale', NULL);
+INSERT INTO product_pricelist (id, create_uid, create_date, write_date, write_uid, currency_id, name, active, type, company_id) VALUES (4, 1, '2013-11-26 08:51:20.685767', '2014-01-10 11:28:11.147733', 7, 1, 'CRA juice', true, 'sale', NULL);
+
+

@@ -1,0 +1,5 @@
+INSERT INTO rel_modules_langexport (wiz_id, module_id) VALUES (33, 264);
+INSERT INTO rel_modules_langexport (wiz_id, module_id) VALUES (34, 208);
+INSERT INTO rel_modules_langexport (wiz_id, module_id) VALUES (35, 208);
+
+

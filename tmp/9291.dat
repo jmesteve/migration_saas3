@@ -1,0 +1,4 @@
+INSERT INTO account_account_template_tax_rel (account_id, tax_id) VALUES (19, 5);
+INSERT INTO account_account_template_tax_rel (account_id, tax_id) VALUES (23, 1);
+
+

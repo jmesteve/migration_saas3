@@ -1,0 +1,10 @@
+INSERT INTO ir_config_parameter (id, create_uid, create_date, write_date, write_uid, key, value) VALUES (2, 1, '2013-10-22 09:35:18.592393', '2013-10-22 09:35:18.592393', 1, 'database.create_date', '2013-10-22 09:35:18');
+INSERT INTO ir_config_parameter (id, create_uid, create_date, write_date, write_uid, key, value) VALUES (3, 1, '2013-10-22 09:35:18.592393', '2013-10-22 09:35:18.592393', 1, 'database.uuid', '43922b32-3afd-11e3-987f-00163ec23f84');
+INSERT INTO ir_config_parameter (id, create_uid, create_date, write_date, write_uid, key, value) VALUES (8, 1, '2013-11-12 12:17:03.249328', '2013-11-12 12:17:03.249328', 1, 'webkit_path', '/Applications/wkhtmltopdf.app/Contents/MacOS/wkhtmltopdf');
+INSERT INTO ir_config_parameter (id, create_uid, create_date, write_date, write_uid, key, value) VALUES (5, 1, '2013-10-22 10:52:29.385077', '2013-11-21 07:57:47.402013', 1, 'mail.catchall.domain', 'cortesgroup.org');
+INSERT INTO ir_config_parameter (id, create_uid, create_date, write_date, write_uid, key, value) VALUES (6, 1, '2013-10-22 10:52:29.385077', '2013-11-21 07:57:47.402013', 1, 'auth_signup.reset_password', 'True');
+INSERT INTO ir_config_parameter (id, create_uid, create_date, write_date, write_uid, key, value) VALUES (7, 1, '2013-10-22 10:52:29.385077', '2013-11-21 07:57:47.402013', 1, 'auth_signup.allow_uninvited', 'False');
+INSERT INTO ir_config_parameter (id, create_uid, create_date, write_date, write_uid, key, value) VALUES (4, 1, '2013-10-22 09:43:20.643888', '2013-11-21 07:57:47.402013', 1, 'auth_signup.template_user_id', '3');
+INSERT INTO ir_config_parameter (id, create_uid, create_date, write_date, write_uid, key, value) VALUES (1, 1, '2013-10-22 09:35:18.592393', '2014-02-19 12:21:22.827486', 1, 'web.base.url', 'http://localhost:8069');
+
+

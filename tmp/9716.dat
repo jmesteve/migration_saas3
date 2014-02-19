@@ -1,0 +1,16 @@
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (76, 1);
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (109, 12);
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (129, 22);
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (177, 21);
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (281, 9);
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (392, 28);
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (393, 28);
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (489, 7);
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (525, 7);
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (526, 7);
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (536, 44);
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (546, 50);
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (549, 50);
+INSERT INTO ir_act_window_group_rel (act_id, gid) VALUES (578, 53);
+
+

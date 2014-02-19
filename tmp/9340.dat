@@ -1,0 +1,161 @@
+INSERT INTO account_balance_reporting_template (id, create_uid, create_date, write_date, write_uid, name, balance_mode, report_xml_id, type, description) VALUES (8, 1, '2014-02-11 09:27:36.942756', '2014-02-11 09:27:36.942756', 1, 'Balance PYMEs (PGCE 2008)', '2', 773, 'system', '
+CUENTAS ANUALES - BALANCE DE SITUACIÓN PARA PYMES
+
+Balance de PYMES al cierre del ejercicio, según Plan General Contable Español para Pequeñas Y Medianas Empresas, para el depósito de cuentas anuales en el registro mercantil.
+
+Existen limitaciones legales a su uso por empresas de gran tamaño, que deberán utilizar el modelo normal de cuentas anuales.
+
+Condiciones:
+Durante dos ejercicios consecutivos deben reunir, a la fecha de cierre de cada uno de ellos, al menos, dos de las circunstancias siguientes:
+
+Total activo (€)                < 1.000.000 (MICROEMPRESA)  o < 2.850.000 (RESTO PYMES)
+Importe neto cifra negocios (€) < 2.000.000 (MICROEMPRESA)  o < 5.700.00 (RESTO PYMES)
+N.o medio trabajadores          < 10 (MICROEMPRESA)         o < 50 (RESTO PYMES)
+
+Este modelo no puede ser utilizado por las empresas que tengan un modelo específico por adaptación sectorial, ni por las empresas que
+deben utilizar modelos de cuentas anuales específicos, de acuerdo con las disposiciones dictadas por el Banco de España o por la Comisión Nacional
+del Mercado de Valores. Estos formularios tampoco sirven para la presentación de cuentas anuales consolidadas.
+
+En ningún caso podrá utilizar este modelo de PYMES las empresas que se encuentren en alguna de las siguientes circunstancias:
+– Que hayan emitido valores admitidos a negociación en mercados regulados o sistemas multilaterales de negociación, de cualquier Estado miembro de la Unión Europea.
+– Que formen parte de un grupo de sociedades que formulen o debieran haber formulado cuentas anuales consolidadas.
+– Que su moneda funcional sea distinta del euro.
+
+
+Autor: Borja López Soilán (Pexego) - borjals@pexego.es
+
+Basado en los modelos normalizados de depósito de cuentas anuales del registro mercantil (pymes):
+http://www.mjusticia.gob.es/cs/Satellite/1292342988358
+            ');
+INSERT INTO account_balance_reporting_template (id, create_uid, create_date, write_date, write_uid, name, balance_mode, report_xml_id, type, description) VALUES (9, 1, '2014-02-11 09:27:36.942756', '2014-02-11 09:27:36.942756', 1, 'Pérdidas y ganancias PYMEs (PGCE 2008)', '2', 773, 'system', '
+CUENTAS ANUALES - CUENTA DE PÉRDIDAS Y GANANCIAS DE PYMES
+
+Perdidas y Ganancias de PYMES al cierre del ejercicio, según Plan General Contable Español para Pequeñas Y Medianas Empresas, para el depósito de cuentas anuales en el registro mercantil.
+
+Existen limitaciones legales a su uso por empresas de gran tamaño, que deberán utilizar el modelo normal de cuentas anuales.
+
+Condiciones:
+Durante dos ejercicios consecutivos deben reunir, a la fecha de cierre de cada uno de ellos, al menos, dos de las circunstancias siguientes:
+
+Total activo (€)                < 1.000.000 (MICROEMPRESA)  o < 2.850.000 (RESTO PYMES)
+Importe neto cifra negocios (€) < 2.000.000 (MICROEMPRESA)  o < 5.700.00 (RESTO PYMES)
+N.o medio trabajadores          < 10 (MICROEMPRESA)         o < 50 (RESTO PYMES)
+
+Este modelo no puede ser utilizado por las empresas que tengan un modelo específico por adaptación sectorial, ni por las empresas que
+deben utilizar modelos de cuentas anuales específicos, de acuerdo con las disposiciones dictadas por el Banco de España o por la Comisión Nacional
+del Mercado de Valores. Estos formularios tampoco sirven para la presentación de cuentas anuales consolidadas.
+
+En ningún caso podrá utilizar este modelo de PYMES las empresas que se encuentren en alguna de las siguientes circunstancias:
+– Que hayan emitido valores admitidos a negociación en mercados regulados o sistemas multilaterales de negociación, de cualquier Estado miembro de la Unión Europea.
+– Que formen parte de un grupo de sociedades que formulen o debieran haber formulado cuentas anuales consolidadas.
+– Que su moneda funcional sea distinta del euro.
+
+
+Autor: Borja López Soilán (Pexego) - borjals@pexego.es
+
+Basado en los modelos normalizados de depósito de cuentas anuales del registro mercantil (pymes):
+http://www.mjusticia.gob.es/cs/Satellite/1292342988358
+            ');
+INSERT INTO account_balance_reporting_template (id, create_uid, create_date, write_date, write_uid, name, balance_mode, report_xml_id, type, description) VALUES (10, 1, '2014-02-11 09:27:36.942756', '2014-02-11 09:27:36.942756', 1, 'Balance abreviado (PGCE 2008)', '2', 773, 'system', '
+CUENTAS ANUALES - BALANCE DE SITUACIÓN ABREVIADO
+
+(NOTA: VERSIÓN BETA)
+
+Balance de Situación Normal al cierre del ejercicio, según Plan General Contable Español para Pequeñas Y Medianas Empresas, para el depósito de cuentas anuales en el registro mercantil.
+
+Existen limitaciones legales a su uso por empresas de gran tamaño, que deberán utilizar el modelo normal de cuentas anuales.
+
+Condiciones:
+Total activo (€)                < RESTO
+Importe neto cifra negocios (€) < RESTO
+N.o medio trabajadores          < RESTO
+
+Este modelo no puede ser utilizado por las empresas que tengan un modelo específico por adaptación sectorial, ni por las empresas que
+deben utilizar modelos de cuentas anuales específicos, de acuerdo con las disposiciones dictadas por el Banco de España o por la Comisión Nacional
+del Mercado de Valores. Estos formularios tampoco sirven para la presentación de cuentas anuales consolidadas.
+
+En ningún caso podrá utilizar este modelo de PYMES las empresas que se encuentren en alguna de las siguientes circunstancias:
+– Que hayan emitido valores admitidos a negociación en mercados regulados o sistemas multilaterales de negociación, de cualquier Estado miembro de la Unión Europea.
+– Que formen parte de un grupo de sociedades que formulen o debieran haber formulado cuentas anuales consolidadas.
+– Que su moneda funcional sea distinta del euro.
+
+
+Autor: Borja López Soilán (Pexego) - borjals@pexego.es
+Autor: Raimon Esteve (Zikzakmedia) - resteve@zikzakmedia.com
+
+Basado en los modelos normalizados de depósito de cuentas anuales del registro mercantil (abreviado):
+http://www.mjusticia.gob.es/cs/Satellite/1292342988373
+            ');
+INSERT INTO account_balance_reporting_template (id, create_uid, create_date, write_date, write_uid, name, balance_mode, report_xml_id, type, description) VALUES (11, 1, '2014-02-11 09:27:36.942756', '2014-02-11 09:27:36.942756', 1, 'Pérdidas y ganancias abreviado (PGCE 2008)', '2', 773, 'system', '
+CUENTAS ANUALES - PÉRDIDAS Y GANANCIAS ABREVIADO
+
+(NOTA: VERSIÓN BETA)
+
+Balance de Situación Normal al cierre del ejercicio, según Plan General Contable Español para Pequeñas Y Medianas Empresas, para el depósito de cuentas anuales en el registro mercantil.
+
+Existen limitaciones legales a su uso por empresas de gran tamaño, que deberán utilizar el modelo normal de cuentas anuales.
+
+Condiciones:
+Total activo (€)                < RESTO
+Importe neto cifra negocios (€) < RESTO
+N.o medio trabajadores          < RESTO
+
+Este modelo no puede ser utilizado por las empresas que tengan un modelo específico por adaptación sectorial, ni por las empresas que
+deben utilizar modelos de cuentas anuales específicos, de acuerdo con las disposiciones dictadas por el Banco de España o por la Comisión Nacional
+del Mercado de Valores. Estos formularios tampoco sirven para la presentación de cuentas anuales consolidadas.
+
+En ningún caso podrá utilizar este modelo de PYMES las empresas que se encuentren en alguna de las siguientes circunstancias:
+– Que hayan emitido valores admitidos a negociación en mercados regulados o sistemas multilaterales de negociación, de cualquier Estado miembro de la Unión Europea.
+– Que formen parte de un grupo de sociedades que formulen o debieran haber formulado cuentas anuales consolidadas.
+– Que su moneda funcional sea distinta del euro.
+
+
+Autor: Borja López Soilán (Pexego) - borjals@pexego.es
+Autor: Raimon Esteve (Zikzakmedia) - resteve@zikzakmedia.com
+
+Basado en los modelos normalizados de depósito de cuentas anuales del registro mercantil (abreviado):
+http://www.mjusticia.es/cs/Satellite?blobcol=urldocumento&blobheader=application%2Fpdf&blobkey=id&blobnocache=true&blobtable=Documento&blobwhere=1161679576346&ssbinary=true
+            ');
+INSERT INTO account_balance_reporting_template (id, create_uid, create_date, write_date, write_uid, name, balance_mode, report_xml_id, type, description) VALUES (12, 1, '2014-02-11 09:27:36.942756', '2014-02-11 09:27:36.942756', 1, 'Balance completo (PGCE 2008)', '2', 773, 'system', '
+CUENTAS ANUALES - BALANCE DE SITUACIÓN NORMAL 
+
+(NOTA: VERSIÓN BETA)
+
+Balance de Situación Normal al cierre del ejercicio, según Plan General Contable Español para el depósito de cuentas anuales en el registro mercantil.
+
+
+Autor: Borja López Soilán (Pexego) - borjals@pexego.es
+Autor: Raimon Esteve (Zikzakmedia) - resteve@zikzakmedia.com
+
+Basado en los modelos normalizados de depósito de cuentas anuales del registro mercantil (normal):
+http://www.mjusticia.gob.es/cs/Satellite/1292342988403
+            ');
+INSERT INTO account_balance_reporting_template (id, create_uid, create_date, write_date, write_uid, name, balance_mode, report_xml_id, type, description) VALUES (13, 1, '2014-02-11 09:27:36.942756', '2014-02-11 09:27:36.942756', 1, 'Pérdidas y ganancias completo (PGCE 2008)', '2', 773, 'system', '
+CUENTAS ANUALES - PÉRDIDAS Y GANANCIAS NORMAL
+
+(NOTA: VERSIÓN BETA)
+
+Balance de Situación Normal al cierre del ejercicio, según Plan General Contable Español para el depósito de cuentas anuales en el registro mercantil.
+
+
+Autor: Borja López Soilán (Pexego) - borjals@pexego.es
+Autor: Raimon Esteve (Zikzakmedia) - resteve@zikzakmedia.com
+
+Basado en los modelos normalizados de depósito de cuentas anuales del registro mercantil (normal):
+http://www.mjusticia.gob.es/cs/Satellite/1292342988403
+            ');
+INSERT INTO account_balance_reporting_template (id, create_uid, create_date, write_date, write_uid, name, balance_mode, report_xml_id, type, description) VALUES (14, 1, '2014-02-11 09:27:36.942756', '2014-02-11 09:27:36.942756', 1, 'Estado de ingresos y gastos reconocidos (PGCE 2008)', '2', 773, 'system', '
+CUENTAS ANUALES - ESTADO DE INGRESOS Y GASTOS RECONOCIDOS NORMAL (PGCE 2008)
+
+(NOTA: VERSIÓN BETA)
+
+Estado de Ingresos y Gastos Reconocidos Normal al cierre del ejercicio, según Plan General Contable Español para el depósito de cuentas anuales en el registro mercantil.
+
+
+Autor: Jordi Esteve (Zikzakmedia) - jesteve@zikzakmedia.com
+
+Basado en los modelos normalizados de depósito de cuentas anuales del registro mercantil (normal):
+http://www.mjusticia.gob.es/cs/Satellite/1292342988403
+            ');
+
+

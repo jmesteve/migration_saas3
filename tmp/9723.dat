@@ -1,0 +1,7 @@
+INSERT INTO ir_actions_todo (id, create_uid, create_date, write_date, write_uid, note, state, name, sequence, type, action_id) VALUES (5, 1, '2013-11-11 09:21:23.02706', '2013-11-29 16:31:50.488814', 1, NULL, 'done', NULL, 3, 'automatic', 595);
+INSERT INTO ir_actions_todo (id, create_uid, create_date, write_date, write_uid, note, state, name, sequence, type, action_id) VALUES (2, 1, '2013-10-22 09:43:37.857705', '2013-11-29 16:32:01.682341', 1, NULL, 'done', NULL, 3, 'automatic', 140);
+INSERT INTO ir_actions_todo (id, create_uid, create_date, write_date, write_uid, note, state, name, sequence, type, action_id) VALUES (4, 1, '2013-10-22 09:54:28.200008', '2013-11-29 16:33:26.633504', 1, 'You can select the toponym version of the spanish states and add the spanish cities associated to the zip codes.', 'done', 'Spanish toponyms configuration', 20, 'automatic', 312);
+INSERT INTO ir_actions_todo (id, create_uid, create_date, write_date, write_uid, note, state, name, sequence, type, action_id) VALUES (1, 1, '2013-10-22 09:35:23.07293', '2013-11-29 17:18:51.085837', 1, NULL, 'done', NULL, 100, 'automatic', 383);
+INSERT INTO ir_actions_todo (id, create_uid, create_date, write_date, write_uid, note, state, name, sequence, type, action_id) VALUES (3, 1, '2013-10-22 09:43:37.857705', '2014-02-05 10:13:28.937242', 1, NULL, 'done', 'Set Your Accounting Options', 10, 'automatic', 183);
+
+

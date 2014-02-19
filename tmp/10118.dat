@@ -1,0 +1,17 @@
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (1, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'EXW', 'EX WORKS');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (2, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'FCA', 'FREE CARRIER');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (3, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'FAS', 'FREE ALONGSIDE SHIP');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (4, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'FOB', 'FREE ON BOARD');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (5, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'CFR', 'COST AND FREIGHT');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (6, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'CIF', 'COST, INSURANCE AND FREIGHT');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (7, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'CPT', 'CARRIAGE PAID TO');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (8, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'CIP', 'CARRIAGE AND INSURANCE PAID TO');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (9, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'DAF', 'DELIVERED AT FRONTIER');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (10, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'DES', 'DELIVERED EX SHIP');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (11, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'DEQ', 'DELIVERED EX QUAY');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (12, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'DDU', 'DELIVERED DUTY UNPAID');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (13, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'DAT', 'Delivered At Terminal');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (14, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'DAP', 'Delivered At Place');
+INSERT INTO stock_incoterms (id, create_uid, create_date, write_date, write_uid, active, code, name) VALUES (15, 1, '2013-10-22 10:27:49.453516', '2013-11-29 16:32:19.883862', 1, true, 'DDP', 'Delivered Duty Paid');
+
+
