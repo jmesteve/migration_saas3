@@ -133,3 +133,26 @@ def listTables(database):
         if conn:
             conn.close()
             
+def listModules(databases):
+    modules_databases = {}
+    for database in databases:
+        try:
+            connection = ("dbname=%s user=%s host=%s password=''"%(database,USER,HOST))
+            conn = dbapi2.connect(connection)
+            cr = conn.cursor()
+            cr.execute("SELECT m.name FROM ir_module_module m WHERE  m.state like 'installed';".format(
+                database=database
+            ))
+            list = []
+            mods =  cr.fetchall()
+            modules = []
+            for module in mods:
+                modules.append(module[0])
+            modules_databases[database] = modules
+        except:
+            print "list tables unsuccessfull"   
+        finally:
+            if conn:
+                conn.close()
+    return modules_databases
+    
