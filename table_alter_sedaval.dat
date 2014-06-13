@@ -28,15 +28,24 @@ alter table pos_config alter column warehouse_id set default 1;
 
 #después de crear
 
-select p.id,p.pos_categ_id,pt.id, pt.public_categ_id
-from product_product as p
-inner join product_template as pt
-on p.id = pt.id
+#select p.id,p.pos_categ_id,pt.id, pt.public_categ_id
+#from product_product as p
+#inner join product_template as pt
+#on p.id = pt.id
+
+UPDATE res_partner
+   SET 
+       is_company=True
+
 
 update
-product_template 
+product_template t1
 set
-public_categ_id = p.pos_categ_id
-from product_product as p
-inner join product_template as pt
-on p.id = pt.id
+public_categ_id = sq.pos_categ_id
+from (
+select t2.pos_categ_id, t3.id
+from product_product t2
+inner join product_template t3
+on t3.id = t2.product_tmpl_id 
+) as sq 
+where t1.id = sq.id
